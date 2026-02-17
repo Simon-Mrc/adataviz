@@ -1,4 +1,9 @@
 import './style.css'
+
+// import {readFileSync, existsSync} from "fs";
+// import {join} from "path";
+// import {homedir} from "os";
+// import fs from 'fs';
 import { createElement } from 'react';
 
 
@@ -8,6 +13,10 @@ async function getTheApi() {
   return theJson;
 }
 const theJson = await getTheApi();
+// try { fs.writeFileSync("theJson.json" ,JSON.stringify(theJson, null, 2));
+// }catch{
+//   console.log(`Something went wrong`);
+// };
 
 for (let i = 0 ; i<30 ; i = i + 1){
   let a = document.createElement(`pre`);
