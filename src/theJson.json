@@ -1,0 +1,725 @@
+{
+  "total_count": 2589,
+  "results": [
+    {
+      "y_4326": 48.852089,
+      "x_4326": 2.332069,
+      "index_plaque": 6222,
+      "ardt": 6,
+      "adresse": "3 RUE MADAME",
+      "emplacement": "RDC",
+      "retranscription": "Le 30 aout 1869 / est né dans cette maison / CONSTANT - GEORGES GASTÉ / Peintre orientalisme / 1869-1910) / Don de l'association des Amis de Gasté",
+      "materiau": "marbre",
+      "taille": "25x15",
+      "titre": "Constant Georges Gasté",
+      "siecle": "19-20",
+      "periode_1": null,
+      "periode_2": null,
+      "objet_1": "les artistes (beaux-arts)",
+      "objet_2": null,
+      "genre": "YY",
+      "personnalite": "Constant Georges Gasté",
+      "pays": "France",
+      "date_arret": null,
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            2.3320690005145788,
+            48.85208899914933
+          ],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 2.3320690005145788,
+        "lat": 48.85208899914933
+      }
+    },
+    {
+      "y_4326": 48.852692,
+      "x_4326": 2.339941,
+      "index_plaque": 6229,
+      "ardt": 6,
+      "adresse": "7 RUE DU JARDINET",
+      "emplacement": "RDC",
+      "retranscription": "À LA MÉMOIRE DES ÉLÈVES DE CETTE ÉCOLE / DÉPORTÉS DE 1942 À 1944 PARCE QUE NÉS JUIFS / VICTIMES INNOCENTES DE LA BARBARIE NAZIE / AVEC LA PARTICIPATION ACTIVE / DU GOUVERNEMENT DE CICHY. / ILS FURENT ASSASSINÉS DANS LES CAMPS DE LA MORT. / PLUS 1 DE CES ENFANTS VIVAIENT DANS LE 6e ARRONDISSEMENT. (en bas à gauche) ECOLE ELEMENTAIRE 7 RUE DU JARDINET- PARIS 6e (en bas à droite) NE LES OUBLIONS JAMAIS",
+      "materiau": "granit",
+      "taille": "70x40",
+      "titre": "Ecole rue du Jardinet",
+      "siecle": "20",
+      "periode_1": "Seconde Guerre mondiale",
+      "periode_2": null,
+      "objet_1": "les victimes civiles de guerre",
+      "objet_2": null,
+      "genre": null,
+      "personnalite": null,
+      "pays": "France",
+      "date_arret": null,
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            2.339940999673889,
+            48.85269199902076
+          ],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 2.339940999673889,
+        "lat": 48.85269199902076
+      }
+    },
+    {
+      "y_4326": 48.852622,
+      "x_4326": 2.342047,
+      "index_plaque": 6231,
+      "ardt": 6,
+      "adresse": "12 RUE DANTON",
+      "emplacement": "RDC",
+      "retranscription": "ICI EST TOMBE / POUR LA LIBERATION DE PARIS / FERDINAND KRONIS / VICTIME CIVILE / 25 AOUT 1944",
+      "materiau": "marbre",
+      "taille": "30x25",
+      "titre": "Ferdinand Kronis",
+      "siecle": "20",
+      "periode_1": "Seconde Guerre mondiale",
+      "periode_2": "Libération de Paris",
+      "objet_1": "les victimes civiles de guerre",
+      "objet_2": null,
+      "genre": "YY",
+      "personnalite": "Ferdinand Kronis",
+      "pays": "France",
+      "date_arret": null,
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            2.342047000307465,
+            48.852621998776996
+          ],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 2.342047000307465,
+        "lat": 48.852621998776996
+      }
+    },
+    {
+      "y_4326": 48.856488,
+      "x_4326": 2.337052,
+      "index_plaque": 6243,
+      "ardt": 6,
+      "adresse": "20 RUE MAZARINE",
+      "emplacement": "RDC",
+      "retranscription": "DANS CETTE MAISON / HABITA EN 1791 / LE DEPUTE GIRONDIN / CHARLES BARBAROUX / 1767 - 1794",
+      "materiau": "pierre",
+      "taille": "30x30",
+      "titre": "Charles Jean Marie Barbaroux",
+      "siecle": "18",
+      "periode_1": "Révolution, Consulat et Empire",
+      "periode_2": null,
+      "objet_1": "les politiques",
+      "objet_2": null,
+      "genre": "YY",
+      "personnalite": "Charles Jean Marie Barbaroux",
+      "pays": "France",
+      "date_arret": null,
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            2.3370520002377657,
+            48.85648799932203
+          ],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 2.3370520002377657,
+        "lat": 48.85648799932203
+      }
+    },
+    {
+      "y_4326": 48.8495,
+      "x_4326": 2.340066,
+      "index_plaque": 6254,
+      "ardt": 6,
+      "adresse": "26 RUE MONSIEUR LE PRINCE",
+      "emplacement": "PREMIER ETAGE",
+      "retranscription": "VICTOR EMILE MICHELET / ECRIVAIN ET POÈTE ÉSOTÉRIQUE / HABITA DEPUIS 1908 / CETTE MAISON / OÙ IL EST MORT / LE 12 JANVIER 1938",
+      "materiau": "marbre",
+      "taille": "30x40",
+      "titre": "Victor-Émile Michelet",
+      "siecle": "19-20",
+      "periode_1": null,
+      "periode_2": null,
+      "objet_1": "les écrivains et intellectuels",
+      "objet_2": null,
+      "genre": "YY",
+      "personnalite": "Victor-Émile Michelet",
+      "pays": "France",
+      "date_arret": null,
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            2.340066000405705,
+            48.849499998983326
+          ],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 2.340066000405705,
+        "lat": 48.849499998983326
+      }
+    },
+    {
+      "y_4326": 48.849146,
+      "x_4326": 2.339836,
+      "index_plaque": 6257,
+      "ardt": 6,
+      "adresse": "8 RUE DE VAUGIRARD",
+      "emplacement": "RDC",
+      "retranscription": "KNUT HAMSUN / 1859.1952 / ÉCRIVAIN NORVÉGIEN / PRIX NOBEL DE LITTÉRATURE 1920 / VÉCUT ET TRAVAILLA / DANS CET IMMEUBLE / ENTRE 1893 ET 1895",
+      "materiau": "marbre",
+      "taille": "25x25",
+      "titre": "Knut Hamsun",
+      "siecle": "19-20",
+      "periode_1": null,
+      "periode_2": null,
+      "objet_1": "les écrivains et intellectuels",
+      "objet_2": null,
+      "genre": "YY",
+      "personnalite": "Knut Hamsun",
+      "pays": "France, Norvège",
+      "date_arret": null,
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            2.339835999838686,
+            48.84914599913663
+          ],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 2.339835999838686,
+        "lat": 48.84914599913663
+      }
+    },
+    {
+      "y_4326": 48.864201,
+      "x_4326": 2.331059,
+      "index_plaque": 1442,
+      "ardt": 1,
+      "adresse": "198 RUE DE RIVOLI",
+      "emplacement": "RDC",
+      "retranscription": "JEAN SARMENT AUTEUR DRAMATIQUE COMÉDIEN ET POÈTE NÉ LE 13 JANVIER 1897 A VÉCU DANS CETTE MAISON DE 1940 JUSQU'AU 29 MARS 1976",
+      "materiau": "pierre jaunette",
+      "taille": "30x30",
+      "titre": "Jean Sarment",
+      "siecle": "19",
+      "periode_1": null,
+      "periode_2": null,
+      "objet_1": "les artistes (théâtre et cinéma)",
+      "objet_2": "les écrivains et intellectuels",
+      "genre": "YY",
+      "personnalite": "Jean Sarment",
+      "pays": "France",
+      "date_arret": null,
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            2.331058999391181,
+            48.86420099880742
+          ],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 2.331058999391181,
+        "lat": 48.86420099880742
+      }
+    },
+    {
+      "y_4326": 48.850552,
+      "x_4326": 2.344844,
+      "index_plaque": 5073,
+      "ardt": 5,
+      "adresse": "3 RUE DE CLUNY",
+      "emplacement": "RDC",
+      "retranscription": "VESTIGE DU CLOITRE / RAPPELANT QU'A CET EMPLACEMENT / S'ELEVAIT AU XIIIE SIECLE / JUSQU'A LA REVOLUTION / LE COUVENT DES TRINITAIRES / APPELES MATHURINS",
+      "materiau": "plaque en pierre blanche/beige",
+      "taille": null,
+      "titre": "Couvent des Mathurins",
+      "siecle": "13",
+      "periode_1": null,
+      "periode_2": null,
+      "objet_1": "lieux, édifices et vestiges",
+      "objet_2": null,
+      "genre": null,
+      "personnalite": null,
+      "pays": "France",
+      "date_arret": null,
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            2.3448440003260704,
+            48.85055199911172
+          ],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 2.3448440003260704,
+        "lat": 48.85055199911172
+      }
+    },
+    {
+      "y_4326": 48.849159,
+      "x_4326": 2.347684,
+      "index_plaque": 5084,
+      "ardt": 5,
+      "adresse": "7 RUE DES CARMES",
+      "emplacement": "RDC",
+      "retranscription": "DANS CETTE MAISON / A VECU DURANT L'ETE 1913 / GIUSEPPE UNGARETTI / POETE ITALIEN / 1888 - 1970",
+      "materiau": "plaque en pierre blanche",
+      "taille": null,
+      "titre": "Giuseppe Ungaretti",
+      "siecle": "19-20",
+      "periode_1": null,
+      "periode_2": null,
+      "objet_1": "les écrivains et intellectuels",
+      "objet_2": null,
+      "genre": "YY",
+      "personnalite": "Giuseppe Ungaretti",
+      "pays": "France, Italie",
+      "date_arret": null,
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            2.3476840003509336,
+            48.8491589992411
+          ],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 2.3476840003509336,
+        "lat": 48.8491589992411
+      }
+    },
+    {
+      "y_4326": 48.843582,
+      "x_4326": 2.325364,
+      "index_plaque": 6002,
+      "ardt": 6,
+      "adresse": "79 BOULEVARD DU MONTPARNASSE",
+      "emplacement": "REZ-DE-CHAUSSEE",
+      "retranscription": "LE POÈTE / RAYMOND de la TAILHÈDE, / FONDATEUR AVEC MORÉAS, / DE L’ECOLE ROMANE / EN 1891, / A HABITÉ CETTE MAISON",
+      "materiau": "marbre",
+      "taille": "25x40",
+      "titre": "Raymond de La Tailhède",
+      "siecle": "19",
+      "periode_1": null,
+      "periode_2": null,
+      "objet_1": "les écrivains et intellectuels",
+      "objet_2": null,
+      "genre": "YY",
+      "personnalite": "Raymond de La Tailhède",
+      "pays": "France",
+      "date_arret": null,
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            2.3253639997111044,
+            48.84358199913569
+          ],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 2.3253639997111044,
+        "lat": 48.84358199913569
+      }
+    },
+    {
+      "y_4326": 48.84161,
+      "x_4326": 2.331487,
+      "index_plaque": 6003,
+      "ardt": 6,
+      "adresse": "127 BOULEVARD DU MONTPARNASSE",
+      "emplacement": "PREMIER ETAGE",
+      "retranscription": "DANS CETTE MAISON / HABITA LE PEINTRE J-B. JONGKIND / PRÉCURSEUR / DE L’IMPRESSIONNISME / NÉ EN HOLLANDE / MORT à LA CÔTE ST-ANDRÉ / 1819-1891",
+      "materiau": "marbre",
+      "taille": "30x45",
+      "titre": "Johan Barthold Jongkind",
+      "siecle": "19",
+      "periode_1": null,
+      "periode_2": null,
+      "objet_1": "les artistes (beaux-arts)",
+      "objet_2": null,
+      "genre": "YY",
+      "personnalite": "Johan Barthold Jongkind",
+      "pays": "France, Pays-Bas",
+      "date_arret": null,
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            2.3314869994058496,
+            48.84160999886912
+          ],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 2.3314869994058496,
+        "lat": 48.84160999886912
+      }
+    },
+    {
+      "y_4326": 48.854362,
+      "x_4326": 2.306293,
+      "index_plaque": 7032,
+      "ardt": 7,
+      "adresse": "1 PLACE DE L ECOLE MILITAIRE",
+      "emplacement": "RDC",
+      "retranscription": "LE 12 DECEMBRE 1941,/LA POLICE MILITAIRE ALLEMANDE, ASSISTEE DE LA POLICE FRANCAISE,/A ARRETE 743 PERSONNALITES JUIVES FRANCAISES, EN MAJORITE ANCIENS COMBATTANTS/ET PROFESSIONS LIBERALES, ET LES A REGROUPEES DANS LE MANEGE/”COMMANDANT BOSSUS” DE L'ECOLE MILITAIRE./LES 743 ONT ETE INTERNES DANS LE CAMP ALLEMAND DE ROYALIEU A COMPIEGNE/ OU CERTAINS SONT MORTS DE FAIM ET DE FROID./LE 27 MARS 1942, LA PLUPART DES 743 ONT ETE DEPORTES PAR LE PREMIER CONVOI/ PARTI DE FRANCE A DESTINATION D'AUSCHWITZ, OU ILS ONT ETE ASSASSINES. N'OUBLIONS PAS CES VICTIMES DE LA HAINE RACIALE./ Les fils et filles des Déportés Juifs de France. Josette et Jean-Jacques FRAENKEL à la mémoire de leur Père",
+      "materiau": "marbre",
+      "taille": null,
+      "titre": "Rafle du 12 décembre 1941 - école militaire",
+      "siecle": "20",
+      "periode_1": "Seconde Guerre mondiale",
+      "periode_2": null,
+      "objet_1": "évènements et faits historiques",
+      "objet_2": "les victimes civiles de guerre",
+      "genre": null,
+      "personnalite": null,
+      "pays": "France",
+      "date_arret": null,
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            2.3062930005893922,
+            48.85436199919874
+          ],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 2.3062930005893922,
+        "lat": 48.85436199919874
+      }
+    },
+    {
+      "y_4326": 48.8631,
+      "x_4326": 2.3181,
+      "index_plaque": 7047,
+      "ardt": 7,
+      "adresse": "QUAI DE LA SEINE",
+      "emplacement": "RDC",
+      "retranscription": "F.F.I. MAQUIS DE LORRIS/(LOIRET)/MORT POUR LA FRANCE/25 AOUT 1944/BILLAND CLAUDE",
+      "materiau": "marbre",
+      "taille": null,
+      "titre": "Claude Billand",
+      "siecle": "20",
+      "periode_1": "Seconde Guerre mondiale",
+      "periode_2": "Libération de Paris",
+      "objet_1": "les Résistants",
+      "objet_2": "les Morts pour la France",
+      "genre": "YY",
+      "personnalite": "Claude Billand",
+      "pays": "France",
+      "date_arret": null,
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            2.318100000355612,
+            48.863099999078734
+          ],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 2.318100000355612,
+        "lat": 48.863099999078734
+      }
+    },
+    {
+      "y_4326": 48.857937,
+      "x_4326": 2.329609,
+      "index_plaque": 7057,
+      "ardt": 7,
+      "adresse": "36 RUE DE VERNEUIL",
+      "emplacement": "RDC",
+      "retranscription": "ICI/EST MORT /POUR LA FRANCE/LE LIEUTENANT/PIERRE MAROGER/A L’AGE DE 20 ANS/LE 21 AOUT 1944",
+      "materiau": "marbre",
+      "taille": null,
+      "titre": "Pierre Maroger",
+      "siecle": "20",
+      "periode_1": "Seconde Guerre mondiale",
+      "periode_2": "Libération de Paris",
+      "objet_1": "les Résistants",
+      "objet_2": "les Morts pour la France",
+      "genre": "YY",
+      "personnalite": "Pierre Maroger",
+      "pays": "France",
+      "date_arret": null,
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            2.329608999832815,
+            48.85793699899464
+          ],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 2.329608999832815,
+        "lat": 48.85793699899464
+      }
+    },
+    {
+      "y_4326": 48.858711,
+      "x_4326": 2.327563,
+      "index_plaque": 7061,
+      "ardt": 7,
+      "adresse": "52 RUE DE VERNEUIL",
+      "emplacement": "RDC",
+      "retranscription": "DANS CET IMMEUBLE/ET DANS L’APPARTEMENT/DE CHRISTIAN PINEAU/EN OCTOBRE 1940/A ETE CREE LE MOUVEMENT/LIBERATION NORD/LE PLUS IMPORTANT DE LA RESISTANCE/EN ZONE OCCUPEE",
+      "materiau": "marbre",
+      "taille": null,
+      "titre": "Création du mouvement Libération Nord",
+      "siecle": "20",
+      "periode_1": "Seconde Guerre mondiale",
+      "periode_2": null,
+      "objet_1": "évènements et faits historiques",
+      "objet_2": "les Résistants",
+      "genre": "YY",
+      "personnalite": "Christian Pineau",
+      "pays": "France",
+      "date_arret": null,
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            2.3275629996300173,
+            48.85871099907349
+          ],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 2.3275629996300173,
+        "lat": 48.85871099907349
+      }
+    },
+    {
+      "y_4326": 48.858817,
+      "x_4326": 2.330011,
+      "index_plaque": 7079,
+      "ardt": 7,
+      "adresse": "5 RUE DE BEAUNE",
+      "emplacement": "Premier",
+      "retranscription": "ICI EST MORT/LE 22 MARS 1924/LOUIS DELLUC/ECRIVAIN ET AUTEUR DE FILMS/HOMAGE DE/L’ASSOCIATION FRANCAISE/DE LA CRITIQUE DE CINEMA/LE 22 MARS 1949",
+      "materiau": "marbre",
+      "taille": null,
+      "titre": "Louis Delluc",
+      "siecle": "19-20",
+      "periode_1": null,
+      "periode_2": null,
+      "objet_1": "les écrivains et intellectuels",
+      "objet_2": "les artistes (théâtre et cinéma)",
+      "genre": "YY",
+      "personnalite": "Louis Delluc",
+      "pays": "France",
+      "date_arret": null,
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            2.3300110001303467,
+            48.85881699892616
+          ],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 2.3300110001303467,
+        "lat": 48.85881699892616
+      }
+    },
+    {
+      "y_4326": 48.858816,
+      "x_4326": 2.330937,
+      "index_plaque": 7085,
+      "ardt": 7,
+      "adresse": "21 QUAI VOLTAIRE",
+      "emplacement": "RDC",
+      "retranscription": "LE PEINTRE MARCEL BASCHET/PRIX DE ROME/MEMBE DE L’INSTITUT/eut son atelier/dans cette maison/de 1907 à 1941",
+      "materiau": "marbre",
+      "taille": null,
+      "titre": "Marcel Baschet",
+      "siecle": "19-20",
+      "periode_1": null,
+      "periode_2": null,
+      "objet_1": "les artistes (beaux-arts)",
+      "objet_2": null,
+      "genre": "YY",
+      "personnalite": "Marcel Baschet",
+      "pays": "France",
+      "date_arret": null,
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            2.330936999983425,
+            48.85881599946963
+          ],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 2.330936999983425,
+        "lat": 48.85881599946963
+      }
+    },
+    {
+      "y_4326": 48.857591,
+      "x_4326": 2.322329,
+      "index_plaque": 7109,
+      "ardt": 7,
+      "adresse": "31, RUE DE BELLECHASSE",
+      "emplacement": "RDC",
+      "retranscription": "VILLEMIN JEAN ANTOINE/1827 – 1892/MEDECIN INSPECTEUR DE L’ARMEE/PROFESSEUR AU VAL DE GRACE/BIENFAITEUR DE L’HUMANITE/PAR L’IMMORTELLE DECOUVERTE EN 1865/DE L’INOCULABILITE DE LA TUBERCULOSE/A VECU DANS CETTE MAISON/OU IL EST MORT LE 3 OCTOBRE 1892/OFFERT PAR L'ASSOCIATION AMICALE DU VAL DE GRÂCE",
+      "materiau": "pierre",
+      "taille": null,
+      "titre": "Jean-Antoine Villemin",
+      "siecle": "19",
+      "periode_1": null,
+      "periode_2": null,
+      "objet_1": "les médecins et scientifiques",
+      "objet_2": null,
+      "genre": "YY",
+      "personnalite": "Jean-Antoine Villemin",
+      "pays": "France",
+      "date_arret": null,
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            2.3223289993170173,
+            48.857590999204525
+          ],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 2.3223289993170173,
+        "lat": 48.857590999204525
+      }
+    },
+    {
+      "y_4326": 48.848574,
+      "x_4326": 2.32884,
+      "index_plaque": 6042,
+      "ardt": 6,
+      "adresse": "20 RUE DE ASSAS",
+      "emplacement": "PREMIER ETAGE",
+      "retranscription": "SUR L'EMPLACEMENT / DE CETTE MAISON ET DES IMMEUBLES VOISINS / S'ETENDAIT LA PROPRIETE / OCCUPEE EN PARTIE PAR L'ATELIER DU SCULPTEUR / DAVID D'ANGERS / ET PAR L'HOTEL OU IL MOURUT / LE 5 JANVIER 1856",
+      "materiau": "pierre",
+      "taille": "35x60",
+      "titre": "Pierre-Jean David d'Angers",
+      "siecle": "18-19",
+      "periode_1": null,
+      "periode_2": null,
+      "objet_1": "les artistes (beaux-arts)",
+      "objet_2": null,
+      "genre": "YY",
+      "personnalite": "Pierre-Jean David d'Angers",
+      "pays": "France",
+      "date_arret": null,
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            2.3288400001830856,
+            48.848573998745294
+          ],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 2.3288400001830856,
+        "lat": 48.848573998745294
+      }
+    },
+    {
+      "y_4326": 48.86832,
+      "x_4326": 2.34308,
+      "index_plaque": 2903,
+      "ardt": 2,
+      "adresse": "111-113 RUE RÉAUMUR",
+      "emplacement": "façade RDC",
+      "retranscription": "LE 21 AOÛT 1944 / LE PERSONNEL DES MESSAGERIES DE PRESSE, EN ACCORD AVEC / LA FÉDÉRATION NATIONALE DE LA PRESSE CLANDESTINE, / DANS UN ÉLAN PATRIOTIQUE, A CHASSÉ D’ICI / L’OCCUPANT NAZI ET LES COLLABORATEURS, / A NOMMÉ SA DIRECTION ET ORGANISÉ / EN PLEINE INSURRECTION / LA DIFFUSION DES JOURNAUX LIBRES / HONNEUR AUX OUVRIERS RÉSISTANTS / DES MESSAGERIES MORTS POUR LA FRANCE.",
+      "materiau": "comblanchien",
+      "taille": "40x80",
+      "titre": "Messageries de presse",
+      "siecle": "20",
+      "periode_1": "Seconde Guerre mondiale",
+      "periode_2": "Libération de Paris",
+      "objet_1": "évènements et faits historiques",
+      "objet_2": "les Résistants",
+      "genre": null,
+      "personnalite": null,
+      "pays": "France",
+      "date_arret": null,
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            2.3430799996161453,
+            48.86831999871758
+          ],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 2.3430799996161453,
+        "lat": 48.86831999871758
+      }
+    }
+  ]
+}
