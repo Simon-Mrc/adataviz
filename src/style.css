@@ -90,12 +90,26 @@ button:focus-visible {
   box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: all 0.9s ease, box-shadow 0.3s ease;
 }
 
 .containerBox:hover {
   transform: translateY(-5px);
   box-shadow: 0 12px 40px rgba(31, 38, 135, 0.5);
+}
+.fold {
+  overflow: hidden;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 2.3s ease;
+  opacity: 0;
+}
+.fold.open {  /* ✅ Add this */
+  transform: scaleX(1);
+  opacity: 1;
+}
+.hidden{
+  display: none !important;
 }
 
 @media (prefers-color-scheme: light) {

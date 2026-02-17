@@ -6,13 +6,18 @@ async function getTheApi() {
   return theJson;
 }
 const theJson = await getTheApi();
-let howMany = 0; // This is the count of current shown info
 let searchArray = []; // To fill with appropriate content from json depending on search
 let j = 0; // last index of displayed infos
+const searchBarSection = document.querySelector("#searchBarSection");
+const loadingScreen = document.querySelector("#loadingScreen");
+const displaySection = document.querySelector("#displaySection");
+const seeMoreSection = document.querySelector("#seeMoreSection");
+
 const loadMoreButton = document.getElementById("loadMore");
-loadMoreButton.addEventListener("click", twentyMore);
-console.log(theJson.results.length);
-function twentyMore(){
+loadMoreButton.addEventListener("click", fiveMore);
+
+
+function fiveMore(){
   for (let i = j ; i < j+5 ; i = i + 1){
     const divBox = document.createElement(`div`);
     const photoUrl = document.createElement(`img`);
@@ -28,7 +33,6 @@ function twentyMore(){
     titre.textContent = theJson.results[i].name;
     description.textContent = theJson.results[i].desc1;
     button.addEventListener("click", () =>{
-      index = i;
       seeMore(i);
     });
     button.textContent = "See More";
@@ -42,23 +46,14 @@ function twentyMore(){
   }
 j = j + 5 //used to start display at stopped state
 }
-twentyMore();
-// for (let i = 0 ; i<30 ; i = i + 1){
-//   let a = document.createElement(`pre`);
-//   a.textContent = JSON.stringify(theJson.results[i], null, 3);
-//   console.log(a);
-//   const targetDiv = document.getElementById("displaySection");
-//   targetDiv.appendChild(a);
-// }
-
+fiveMore();
 
 function launchSearch(searchString){ // searchString probably the result of an input
 
 };
-function loadMore(){ // Probably just addEventListener on a button to add 20 more result to div
-
-};
-function seeMore(index){ // index probably an identifier for the object from json
+function seeMore(index){ // value is stored in correct button already.
+  displaySection.classList.add("fold");
+  loadMoreButton.classList.add("hidden");
 
 };
 function seeLess(){
