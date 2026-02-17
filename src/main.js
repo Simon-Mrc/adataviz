@@ -17,5 +17,5 @@ async function getTheApi() {
 const theJson = await getTheApi();
 try { fs.writeFileSync("theJson.json" ,JSON.stringify(theJson, null, 2));
 }catch{
-  console.log(`file already created`);
+  console.log(`Something went wrong`);
 };
