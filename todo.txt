@@ -1,2 +1,5 @@
 #1 Need to create all html structure to have things to work on in js 
 #2 Work on basic js to fill content with data from api
+
+
+many for loop mixed with while condition to prevent to many result to show.

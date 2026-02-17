@@ -1,36 +1,66 @@
 import './style.css'
-import { createElement } from 'react';
-
 
 async function getTheApi() {
-  const json = await fetch(`https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/plaques_commemoratives/records?limit=20`);
+  const json = await fetch(`https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/femmes-illustres-a-paris-portraits/records?limit=20`);
   const theJson = await json.json();
   return theJson;
 }
 const theJson = await getTheApi();
+let howMany = 0; // This is the count of current shown info
+let searchArray = []; // To fill with appropriate content from json depending on search
+let j = 0; // last index of displayed infos
+const loadMoreButton = document.getElementById("loadMore");
+loadMoreButton.addEventListener("click", twentyMore);
+console.log(theJson.results.length);
+function twentyMore(){
+  for (let i = j ; i < j+5 ; i = i + 1){
+    const divBox = document.createElement(`div`);
+    const photoUrl = document.createElement(`img`);
+    const divBoxMini = document.createElement(`div`);
+    const titre = document.createElement(`h1`);
+    const description = document.createElement(`p`);
+    const button = document.createElement(`button`);
+    const displaySection = document.getElementById("displaySection");
+    
+    divBox.classList.add(`containerBox`);
+    photoUrl.src = theJson.results[i].photos.url; 
+    divBoxMini.classList.add(`containerBox2`);
+    titre.textContent = theJson.results[i].name;
+    description.textContent = theJson.results[i].desc1;
+    button.addEventListener("click", () =>{
+      index = i;
+      seeMore(i);
+    });
+    button.textContent = "See More";
 
-for (let i = 0 ; i<30 ; i = i + 1){
-  let a = document.createElement(`pre`);
-  a.textContent = JSON.stringify(theJson.results[i], null, 3);
-  console.log(a);
-  const targetDiv = document.getElementById("displaySection");
-  targetDiv.appendChild(a);
+    displaySection.appendChild(divBox);
+    divBox.appendChild(photoUrl);
+    divBox.appendChild(divBoxMini);
+    divBoxMini.appendChild(titre);
+    divBoxMini.appendChild(description);
+    divBoxMini.appendChild(button);
+  }
+j = j + 5 //used to start display at stopped state
 }
-// // Create a new paragraph element
-// const paragraph = document.createElement('p');
+twentyMore();
+// for (let i = 0 ; i<30 ; i = i + 1){
+//   let a = document.createElement(`pre`);
+//   a.textContent = JSON.stringify(theJson.results[i], null, 3);
+//   console.log(a);
+//   const targetDiv = document.getElementById("displaySection");
+//   targetDiv.appendChild(a);
+// }
 
-// // Set the text content (optional)
-// paragraph.textContent = 'This is a paragraph';
-
-// // Get the target div
-// const targetDiv = document.getElementById('test');
-
-// // Append the paragraph to the div
-// targetDiv.appendChild(paragraph);
 
 function launchSearch(searchString){ // searchString probably the result of an input
 
 };
+function loadMore(){ // Probably just addEventListener on a button to add 20 more result to div
+
+};
 function seeMore(index){ // index probably an identifier for the object from json
 
-}
+};
+function seeLess(){
+
+};

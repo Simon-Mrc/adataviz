@@ -1,724 +1,1024 @@
 {
-  "total_count": 2589,
+  "total_count": 154,
   "results": [
     {
-      "y_4326": 48.852089,
-      "x_4326": 2.332069,
-      "index_plaque": 6222,
-      "ardt": 6,
-      "adresse": "3 RUE MADAME",
-      "emplacement": "RDC",
-      "retranscription": "Le 30 aout 1869 / est né dans cette maison / CONSTANT - GEORGES GASTÉ / Peintre orientalisme / 1869-1910) / Don de l'association des Amis de Gasté",
-      "materiau": "marbre",
-      "taille": "25x15",
-      "titre": "Constant Georges Gasté",
-      "siecle": "19-20",
-      "periode_1": null,
-      "periode_2": null,
-      "objet_1": "les artistes (beaux-arts)",
-      "objet_2": null,
-      "genre": "YY",
-      "personnalite": "Constant Georges Gasté",
-      "pays": "France",
-      "date_arret": null,
+      "name": "Ludmila Tcherina",
+      "tab_name": "Sportives",
+      "short_desc": "15 avenue Montaigne",
+      "desc1": "Danseuse émérite, Ludmila Tcherina rejoint en 1945 \"Les Ballets des Champs-Elysées\" de Roland Petit au 15 avenue Montaigne.",
+      "desc2": "Dès ces 16 ans elle intégre l'opéra de Marseille puis les Nouveaux Ballets de Monte-Carlo.",
+      "desc3": "Après sa carrière de danseuse Ludmila se lance dans la comédie et le cinéma avec \"un revenant\" de Christian-Jaque.",
+      "desc4": "En 1991 elle devient sculptrice avec une oeuvre monumentale \"Europe à cœur\", sculpture de 12m de haut, choisie par la Communauté européenne pour symboliser l'Europe unie.",
+      "desc5": null,
+      "website": null,
+      "pic_url": null,
+      "thumb_url": "https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/Ludmilla_Tcherina.jpg",
+      "long": 648888.8966,
+      "lat": 6863073.7636,
+      "created_user": null,
+      "created_date": null,
+      "last_edited_user": null,
+      "last_edited_date": null,
       "geo_shape": {
         "type": "Feature",
         "geometry": {
           "coordinates": [
-            2.3320690005145788,
-            48.85208899914933
+            2.3032840001935817,
+            48.86566500031859
           ],
           "type": "Point"
         },
         "properties": {}
       },
       "geo_point_2d": {
-        "lon": 2.3320690005145788,
-        "lat": 48.85208899914933
+        "lon": 2.3032840001935817,
+        "lat": 48.86566500031859
+      },
+      "photos": {
+        "exif_orientation": 1,
+        "thumbnail": true,
+        "filename": "Ludmilla_Tcherina.jpg",
+        "width": 220,
+        "format": "JPEG",
+        "etag": "\"7ec926d01225d51:0\"",
+        "mimetype": "image/jpeg",
+        "id": "14ef06ae548c0df61831e54837834c44",
+        "last_synchronized": "2019-06-18T07:58:39.598640",
+        "color_summary": [
+          "rgba(58, 58, 58, 1.00)",
+          "rgba(59, 59, 59, 1.00)",
+          "rgba(57, 57, 57, 1.00)"
+        ],
+        "height": 320,
+        "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/femmes-illustres-a-paris-portraits/files/14ef06ae548c0df61831e54837834c44"
       }
     },
     {
-      "y_4326": 48.852692,
-      "x_4326": 2.339941,
-      "index_plaque": 6229,
-      "ardt": 6,
-      "adresse": "7 RUE DU JARDINET",
-      "emplacement": "RDC",
-      "retranscription": "À LA MÉMOIRE DES ÉLÈVES DE CETTE ÉCOLE / DÉPORTÉS DE 1942 À 1944 PARCE QUE NÉS JUIFS / VICTIMES INNOCENTES DE LA BARBARIE NAZIE / AVEC LA PARTICIPATION ACTIVE / DU GOUVERNEMENT DE CICHY. / ILS FURENT ASSASSINÉS DANS LES CAMPS DE LA MORT. / PLUS 1 DE CES ENFANTS VIVAIENT DANS LE 6e ARRONDISSEMENT. (en bas à gauche) ECOLE ELEMENTAIRE 7 RUE DU JARDINET- PARIS 6e (en bas à droite) NE LES OUBLIONS JAMAIS",
-      "materiau": "granit",
-      "taille": "70x40",
-      "titre": "Ecole rue du Jardinet",
-      "siecle": "20",
-      "periode_1": "Seconde Guerre mondiale",
-      "periode_2": null,
-      "objet_1": "les victimes civiles de guerre",
-      "objet_2": null,
-      "genre": null,
-      "personnalite": null,
-      "pays": "France",
-      "date_arret": null,
+      "name": "Marie curie",
+      "tab_name": "77 Illustres Parisiennes",
+      "short_desc": "1 rue P&Marie Curie",
+      "desc1": "Physicienne et chimiste Marie Curie mène des recherches sur un nouveau phénomène qu’elle nommera radioactivité.",
+      "desc2": "Ses recherches mèneront également à la découverte de deux nouveaux éléments le radium et le polonium avec son mari Pierre Curie.",
+      "desc3": "Après avoir reçu le prix Nobel de physique en 1903, elle remplacera son mari mort à la Sorbonne comme professeure de physique, et sera la première femme à donner des cours à des étudiants.",
+      "desc4": "En 1911, elle décroche le Nobel de Chimie, elle repose aujourd’hui avec son mari au Panthéon.",
+      "desc5": null,
+      "website": null,
+      "pic_url": null,
+      "thumb_url": "https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/Marie_Curie.jpg",
+      "long": 651926.7858,
+      "lat": 6860674.7752,
+      "created_user": null,
+      "created_date": null,
+      "last_edited_user": null,
+      "last_edited_date": null,
       "geo_shape": {
         "type": "Feature",
         "geometry": {
           "coordinates": [
-            2.339940999673889,
-            48.85269199902076
+            2.344963999528176,
+            48.84432499980452
           ],
           "type": "Point"
         },
         "properties": {}
       },
       "geo_point_2d": {
-        "lon": 2.339940999673889,
-        "lat": 48.85269199902076
+        "lon": 2.344963999528176,
+        "lat": 48.84432499980452
+      },
+      "photos": {
+        "thumbnail": true,
+        "filename": "Marie_Curie.jpg",
+        "width": 220,
+        "format": "JPEG",
+        "etag": "\"9bfbfdd91225d51:0\"",
+        "mimetype": "image/jpeg",
+        "id": "7f09975a3df6d704f03d33898440debc",
+        "last_synchronized": "2019-06-18T07:58:37.777355",
+        "color_summary": [
+          "rgba(122, 122, 122, 1.00)",
+          "rgba(149, 149, 149, 1.00)",
+          "rgba(95, 95, 95, 1.00)"
+        ],
+        "height": 280,
+        "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/femmes-illustres-a-paris-portraits/files/7f09975a3df6d704f03d33898440debc"
       }
     },
     {
-      "y_4326": 48.852622,
-      "x_4326": 2.342047,
-      "index_plaque": 6231,
-      "ardt": 6,
-      "adresse": "12 RUE DANTON",
-      "emplacement": "RDC",
-      "retranscription": "ICI EST TOMBE / POUR LA LIBERATION DE PARIS / FERDINAND KRONIS / VICTIME CIVILE / 25 AOUT 1944",
-      "materiau": "marbre",
-      "taille": "30x25",
-      "titre": "Ferdinand Kronis",
-      "siecle": "20",
-      "periode_1": "Seconde Guerre mondiale",
-      "periode_2": "Libération de Paris",
-      "objet_1": "les victimes civiles de guerre",
-      "objet_2": null,
-      "genre": "YY",
-      "personnalite": "Ferdinand Kronis",
-      "pays": "France",
-      "date_arret": null,
+      "name": "Julia Sedefdjian",
+      "tab_name": "Cheffes",
+      "short_desc": "5 Rue de Pontoise,",
+      "desc1": "Elle devient du prestigieux “Fables de la Fontaine” et la plus jeune cheffe étoilé de France à seulement 21 ans.",
+      "desc2": "Elle ouvre 2 ans plus tard son restaurant Baieta, bisou en patois niçois dans le 5ème arrondissement où elle souhaite avant tout rendre abordable la cuisine gastronomique",
+      "desc3": null,
+      "desc4": null,
+      "desc5": null,
+      "website": null,
+      "pic_url": null,
+      "thumb_url": "https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/Julia_Sedefdjian.jpg",
+      "long": 652473.8975,
+      "lat": 6861314.5425,
+      "created_user": null,
+      "created_date": null,
+      "last_edited_user": null,
+      "last_edited_date": null,
       "geo_shape": {
         "type": "Feature",
         "geometry": {
           "coordinates": [
-            2.342047000307465,
-            48.852621998776996
+            2.352346999544449,
+            48.85011899993508
           ],
           "type": "Point"
         },
         "properties": {}
       },
       "geo_point_2d": {
-        "lon": 2.342047000307465,
-        "lat": 48.852621998776996
+        "lon": 2.352346999544449,
+        "lat": 48.85011899993508
+      },
+      "photos": {
+        "thumbnail": true,
+        "filename": "Julia_Sedefdjian.jpg",
+        "width": 220,
+        "format": "JPEG",
+        "etag": "\"bee7a7c31225d51:0\"",
+        "mimetype": "image/jpeg",
+        "id": "48074ee75612341b3712261a94577e74",
+        "last_synchronized": "2019-06-18T07:58:25.361284",
+        "color_summary": [
+          "rgba(101, 106, 108, 1.00)",
+          "rgba(83, 91, 103, 1.00)",
+          "rgba(78, 83, 95, 1.00)"
+        ],
+        "height": 330,
+        "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/femmes-illustres-a-paris-portraits/files/48074ee75612341b3712261a94577e74"
       }
     },
     {
-      "y_4326": 48.856488,
-      "x_4326": 2.337052,
-      "index_plaque": 6243,
-      "ardt": 6,
-      "adresse": "20 RUE MAZARINE",
-      "emplacement": "RDC",
-      "retranscription": "DANS CETTE MAISON / HABITA EN 1791 / LE DEPUTE GIRONDIN / CHARLES BARBAROUX / 1767 - 1794",
-      "materiau": "pierre",
-      "taille": "30x30",
-      "titre": "Charles Jean Marie Barbaroux",
-      "siecle": "18",
-      "periode_1": "Révolution, Consulat et Empire",
-      "periode_2": null,
-      "objet_1": "les politiques",
-      "objet_2": null,
-      "genre": "YY",
-      "personnalite": "Charles Jean Marie Barbaroux",
-      "pays": "France",
-      "date_arret": null,
+      "name": "Sophie Germain",
+      "tab_name": "77 Illustres Parisiennes",
+      "short_desc": "13 rue de Savoie",
+      "desc1": "Le 13 rue de Savoie fut le lieu de résidence de Sophie Germain.",
+      "desc2": "Passionnée par les mathématiques elle lit dès l'enfance Newton et Euler et entreprend de devenir mathématicienne.",
+      "desc3": "Sophie Germain s'invente alors un pseudonyme, Antoine-Auguste Le Blanc pour pouvoir accéder à l'école polytechnique de Paris, exclusivement réservée aux hommes.",
+      "desc4": "Elle travaille essentiellement sur la théorie des nombres (théorème de Fermat).",
+      "desc5": "Ses découvertes sont suffisamment importantes pour qu'un théorème porte son nom \"le théorème de Sophie Germain\".",
+      "website": null,
+      "pic_url": null,
+      "thumb_url": "https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/Sophie_Germain.jpg",
+      "long": 651655.6361,
+      "lat": 6861787.7893,
+      "created_user": null,
+      "created_date": null,
+      "last_edited_user": null,
+      "last_edited_date": null,
       "geo_shape": {
         "type": "Feature",
         "geometry": {
           "coordinates": [
-            2.3370520002377657,
-            48.85648799932203
+            2.3411430003138145,
+            48.85431399975768
           ],
           "type": "Point"
         },
         "properties": {}
       },
       "geo_point_2d": {
-        "lon": 2.3370520002377657,
-        "lat": 48.85648799932203
+        "lon": 2.3411430003138145,
+        "lat": 48.85431399975768
+      },
+      "photos": {
+        "thumbnail": true,
+        "filename": "Sophie_Germain.jpg",
+        "width": 220,
+        "format": "JPEG",
+        "etag": "\"b4c6d4431325d51:0\"",
+        "mimetype": "image/jpeg",
+        "id": "1428c01e448238d71d04541d3c9bdda9",
+        "last_synchronized": "2019-06-18T07:58:38.327160",
+        "color_summary": [
+          "rgba(151, 151, 151, 1.00)",
+          "rgba(112, 112, 112, 1.00)",
+          "rgba(136, 136, 136, 1.00)"
+        ],
+        "height": 294,
+        "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/femmes-illustres-a-paris-portraits/files/1428c01e448238d71d04541d3c9bdda9"
       }
     },
     {
-      "y_4326": 48.8495,
-      "x_4326": 2.340066,
-      "index_plaque": 6254,
-      "ardt": 6,
-      "adresse": "26 RUE MONSIEUR LE PRINCE",
-      "emplacement": "PREMIER ETAGE",
-      "retranscription": "VICTOR EMILE MICHELET / ECRIVAIN ET POÈTE ÉSOTÉRIQUE / HABITA DEPUIS 1908 / CETTE MAISON / OÙ IL EST MORT / LE 12 JANVIER 1938",
-      "materiau": "marbre",
-      "taille": "30x40",
-      "titre": "Victor-Émile Michelet",
-      "siecle": "19-20",
-      "periode_1": null,
-      "periode_2": null,
-      "objet_1": "les écrivains et intellectuels",
-      "objet_2": null,
-      "genre": "YY",
-      "personnalite": "Victor-Émile Michelet",
-      "pays": "France",
-      "date_arret": null,
+      "name": "Françoise Dolto",
+      "tab_name": "Scientifiques",
+      "short_desc": "13, rue Meilhac",
+      "desc1": "Psychanalyste des enfants en souffrance et pédiatre Françoise Dolto axe ses recherches autour de deux idées majeures \"l'enfant est une personne à part entière et un être de langage\".",
+      "desc2": "En 1979, elle crée au 13 rue Meilhac la Maison verte avec cinq psychanalystes et éducateurs.",
+      "desc3": "Le lieu se veut lieu d'accueil pour les enfants de moins de 4ans avec leurs parents ou tuteurs.",
+      "desc4": null,
+      "desc5": null,
+      "website": null,
+      "pic_url": null,
+      "thumb_url": "https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/Francoise_Dolto.jpeg",
+      "long": 648518.833,
+      "lat": 6860776.2165,
+      "created_user": null,
+      "created_date": null,
+      "last_edited_user": null,
+      "last_edited_date": null,
       "geo_shape": {
         "type": "Feature",
         "geometry": {
           "coordinates": [
-            2.340066000405705,
-            48.849499998983326
+            2.2985179996715948,
+            48.8449740002689
           ],
           "type": "Point"
         },
         "properties": {}
       },
       "geo_point_2d": {
-        "lon": 2.340066000405705,
-        "lat": 48.849499998983326
+        "lon": 2.2985179996715948,
+        "lat": 48.8449740002689
+      },
+      "photos": {
+        "thumbnail": true,
+        "filename": "Francoise_Dolto.jpeg",
+        "width": 330,
+        "format": "JPEG",
+        "etag": "\"51b451641225d51:0\"",
+        "mimetype": "image/jpeg",
+        "id": "eb4b062e72e780b70801b94c9db36df3",
+        "last_synchronized": "2019-06-18T07:58:36.948773",
+        "color_summary": [
+          "rgba(210, 210, 210, 1.00)",
+          "rgba(181, 180, 182, 1.00)",
+          "rgba(136, 136, 138, 1.00)"
+        ],
+        "height": 220,
+        "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/femmes-illustres-a-paris-portraits/files/eb4b062e72e780b70801b94c9db36df3"
       }
     },
     {
-      "y_4326": 48.849146,
-      "x_4326": 2.339836,
-      "index_plaque": 6257,
-      "ardt": 6,
-      "adresse": "8 RUE DE VAUGIRARD",
-      "emplacement": "RDC",
-      "retranscription": "KNUT HAMSUN / 1859.1952 / ÉCRIVAIN NORVÉGIEN / PRIX NOBEL DE LITTÉRATURE 1920 / VÉCUT ET TRAVAILLA / DANS CET IMMEUBLE / ENTRE 1893 ET 1895",
-      "materiau": "marbre",
-      "taille": "25x25",
-      "titre": "Knut Hamsun",
-      "siecle": "19-20",
-      "periode_1": null,
-      "periode_2": null,
-      "objet_1": "les écrivains et intellectuels",
-      "objet_2": null,
-      "genre": "YY",
-      "personnalite": "Knut Hamsun",
-      "pays": "France, Norvège",
-      "date_arret": null,
+      "name": "Elsa Triolet",
+      "tab_name": "Femmes de lettres",
+      "short_desc": "56 rue de Varenne",
+      "desc1": "Lieu de résidence d’Elsa Triolet et Louis Aragon à partir de 1957, l'auteure sera la première femme à recevoir un prix Goncourt pour son recueil de nouvelles \"Le premier accroc coûte deux cents francs\".",
+      "desc2": "Engagée en résistance, la guerre lui inspire le roman, l'inspecteur des ruines.",
+      "desc3": "Elle est une des plus grandes auteure de son époque et fera l'objet d'un court métrage d'Agnès Varda réalisé en 1956, Elsa, la Rose.",
+      "desc4": null,
+      "desc5": null,
+      "website": null,
+      "pic_url": null,
+      "thumb_url": "https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/Elsa_triolet.jpg",
+      "long": 650198.9842,
+      "lat": 6861839.9361,
+      "created_user": null,
+      "created_date": null,
+      "last_edited_user": null,
+      "last_edited_date": null,
       "geo_shape": {
         "type": "Feature",
         "geometry": {
           "coordinates": [
-            2.339835999838686,
-            48.84914599913663
+            2.3212860003983833,
+            48.85467199964247
           ],
           "type": "Point"
         },
         "properties": {}
       },
       "geo_point_2d": {
-        "lon": 2.339835999838686,
-        "lat": 48.84914599913663
+        "lon": 2.3212860003983833,
+        "lat": 48.85467199964247
+      },
+      "photos": {
+        "thumbnail": true,
+        "filename": "Elsa_triolet.jpg",
+        "width": 220,
+        "format": "JPEG",
+        "etag": "\"dba83c4f1225d51:0\"",
+        "mimetype": "image/jpeg",
+        "id": "3f252a8812f37a518ed3bfaddcf33281",
+        "last_synchronized": "2019-06-18T07:58:30.446730",
+        "color_summary": [
+          "rgba(96, 91, 86, 1.00)",
+          "rgba(126, 122, 118, 1.00)",
+          "rgba(127, 122, 118, 1.00)"
+        ],
+        "height": 309,
+        "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/femmes-illustres-a-paris-portraits/files/3f252a8812f37a518ed3bfaddcf33281"
       }
     },
     {
-      "y_4326": 48.864201,
-      "x_4326": 2.331059,
-      "index_plaque": 1442,
-      "ardt": 1,
-      "adresse": "198 RUE DE RIVOLI",
-      "emplacement": "RDC",
-      "retranscription": "JEAN SARMENT AUTEUR DRAMATIQUE COMÉDIEN ET POÈTE NÉ LE 13 JANVIER 1897 A VÉCU DANS CETTE MAISON DE 1940 JUSQU'AU 29 MARS 1976",
-      "materiau": "pierre jaunette",
-      "taille": "30x30",
-      "titre": "Jean Sarment",
-      "siecle": "19",
-      "periode_1": null,
-      "periode_2": null,
-      "objet_1": "les artistes (théâtre et cinéma)",
-      "objet_2": "les écrivains et intellectuels",
-      "genre": "YY",
-      "personnalite": "Jean Sarment",
-      "pays": "France",
-      "date_arret": null,
+      "name": "George Sand",
+      "tab_name": "Femmes de lettres",
+      "short_desc": "46 rue du Meslay 75003",
+      "desc1": "George Sand est née au 46 rue de Meslay, une plaque commémorative est apposée sur la façade de l'immeuble lui rendant hommage.",
+      "desc2": "George Sand, est le pseudonyme d'Amantine Aurore Lucile Dupin,  auteure dramatique et féministe engagée.",
+      "desc3": "Elle est une des rares femmes françaises à bénéficier de la permission de travestissement lui permettant de porter un pantalon.",
+      "desc4": null,
+      "desc5": null,
+      "website": null,
+      "pic_url": null,
+      "thumb_url": "https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/George_Sand.png",
+      "long": 652854.3768,
+      "lat": 6863331.2521,
+      "created_user": null,
+      "created_date": null,
+      "last_edited_user": null,
+      "last_edited_date": null,
       "geo_shape": {
         "type": "Feature",
         "geometry": {
           "coordinates": [
-            2.331058999391181,
-            48.86420099880742
+            2.3573080001540747,
+            48.86828300023838
           ],
           "type": "Point"
         },
         "properties": {}
       },
       "geo_point_2d": {
-        "lon": 2.331058999391181,
-        "lat": 48.86420099880742
+        "lon": 2.3573080001540747,
+        "lat": 48.86828300023838
+      },
+      "photos": {
+        "thumbnail": true,
+        "filename": "George_Sand.png",
+        "width": 220,
+        "format": "PNG",
+        "etag": "\"e3f126a01225d51:0\"",
+        "mimetype": "image/png",
+        "id": "c9ed3d656db7ee0cf8d098a3fde3da92",
+        "last_synchronized": "2019-06-18T07:58:31.222927",
+        "color_summary": [
+          "rgba(148, 133, 114, 1.00)",
+          "rgba(71, 57, 44, 1.00)",
+          "rgba(79, 84, 87, 1.00)"
+        ],
+        "height": 294,
+        "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/femmes-illustres-a-paris-portraits/files/c9ed3d656db7ee0cf8d098a3fde3da92"
       }
     },
     {
-      "y_4326": 48.850552,
-      "x_4326": 2.344844,
-      "index_plaque": 5073,
-      "ardt": 5,
-      "adresse": "3 RUE DE CLUNY",
-      "emplacement": "RDC",
-      "retranscription": "VESTIGE DU CLOITRE / RAPPELANT QU'A CET EMPLACEMENT / S'ELEVAIT AU XIIIE SIECLE / JUSQU'A LA REVOLUTION / LE COUVENT DES TRINITAIRES / APPELES MATHURINS",
-      "materiau": "plaque en pierre blanche/beige",
-      "taille": null,
-      "titre": "Couvent des Mathurins",
-      "siecle": "13",
-      "periode_1": null,
-      "periode_2": null,
-      "objet_1": "lieux, édifices et vestiges",
-      "objet_2": null,
-      "genre": null,
-      "personnalite": null,
-      "pays": "France",
-      "date_arret": null,
+      "name": "Yvette Chauviré",
+      "tab_name": "Sportives",
+      "short_desc": "Square Yvette chauviré 15e",
+      "desc1": "Anciennement nommé le square de la place du commerce, ce lieu changea de nom pour porter celui d'Yvette Chauviré qui habitait un immeuble situé autour de la place.",
+      "desc2": "Illustre danseuse étoile, Yvette Chauviré entre à l'Opéra de Paris dès ses 10ans et passe de première danseuse à danseuse étoile en peu de temps elle est considérée comme le plus grande danseuse étoile française.",
+      "desc3": "La danse sera sa vie, après avoir quitté la scène elle sera maîtresse de ballet à l'Opéra de Paris et s'éteindra à l'âge de 99 ans, sa tombe se situe au père-Lachaise.",
+      "desc4": null,
+      "desc5": null,
+      "website": null,
+      "pic_url": null,
+      "thumb_url": "https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/Yvette_Chauvire.jpg",
+      "long": 648115.0985,
+      "lat": 6860784.4876,
+      "created_user": null,
+      "created_date": null,
+      "last_edited_user": null,
+      "last_edited_date": null,
       "geo_shape": {
         "type": "Feature",
         "geometry": {
           "coordinates": [
-            2.3448440003260704,
-            48.85055199911172
+            2.2930160001767868,
+            48.845015999719585
           ],
           "type": "Point"
         },
         "properties": {}
       },
       "geo_point_2d": {
-        "lon": 2.3448440003260704,
-        "lat": 48.85055199911172
+        "lon": 2.2930160001767868,
+        "lat": 48.845015999719585
+      },
+      "photos": {
+        "exif_orientation": 1,
+        "thumbnail": true,
+        "filename": "Yvette_Chauvire.jpg",
+        "width": 220,
+        "format": "JPEG",
+        "etag": "\"bd89f8531325d51:0\"",
+        "mimetype": "image/jpeg",
+        "id": "8feddebd7605560877e5e4fb3757cd59",
+        "last_synchronized": "2019-06-18T07:58:41.619990",
+        "color_summary": [
+          "rgba(55, 75, 83, 1.00)",
+          "rgba(95, 105, 103, 1.00)",
+          "rgba(92, 101, 103, 1.00)"
+        ],
+        "height": 281,
+        "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/femmes-illustres-a-paris-portraits/files/8feddebd7605560877e5e4fb3757cd59"
       }
     },
     {
-      "y_4326": 48.849159,
-      "x_4326": 2.347684,
-      "index_plaque": 5084,
-      "ardt": 5,
-      "adresse": "7 RUE DES CARMES",
-      "emplacement": "RDC",
-      "retranscription": "DANS CETTE MAISON / A VECU DURANT L'ETE 1913 / GIUSEPPE UNGARETTI / POETE ITALIEN / 1888 - 1970",
-      "materiau": "plaque en pierre blanche",
-      "taille": null,
-      "titre": "Giuseppe Ungaretti",
-      "siecle": "19-20",
-      "periode_1": null,
-      "periode_2": null,
-      "objet_1": "les écrivains et intellectuels",
-      "objet_2": null,
-      "genre": "YY",
-      "personnalite": "Giuseppe Ungaretti",
-      "pays": "France, Italie",
-      "date_arret": null,
+      "name": "Dora Maar",
+      "tab_name": "Artistes",
+      "short_desc": "6 rue de Savoie",
+      "desc1": "Peintre et parfois photographe de plateau, Henriette Théodora Markovitch dit Dora Maar, rencontre Picasso en 1935 grâce à Paul Éluard aux Deux-Magots.",
+      "desc2": "Elle réalise le premier reportage photo sur l'oeuvre de Picasso au travail.",
+      "desc3": "En 1946, Dora Maar devient peintre à part entière, se sépare de Picasso  et s'éloigne des formes cubistes.",
+      "desc4": "Elle habita au 6 rue de Savoie jusqu'à sa mort.",
+      "desc5": null,
+      "website": null,
+      "pic_url": null,
+      "thumb_url": "https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/Dora_Maar.jpg",
+      "long": 651702.0143,
+      "lat": 6861788.0697,
+      "created_user": null,
+      "created_date": null,
+      "last_edited_user": null,
+      "last_edited_date": null,
       "geo_shape": {
         "type": "Feature",
         "geometry": {
           "coordinates": [
-            2.3476840003509336,
-            48.8491589992411
+            2.3417750004700078,
+            48.854319999827204
           ],
           "type": "Point"
         },
         "properties": {}
       },
       "geo_point_2d": {
-        "lon": 2.3476840003509336,
-        "lat": 48.8491589992411
+        "lon": 2.3417750004700078,
+        "lat": 48.854319999827204
+      },
+      "photos": {
+        "thumbnail": true,
+        "filename": "Dora_Maar.jpg",
+        "width": 220,
+        "format": "JPEG",
+        "etag": "\"faaabc441225d51:0\"",
+        "mimetype": "image/jpeg",
+        "id": "d0e663fa8a9719f7d63bba770cd32af5",
+        "last_synchronized": "2019-06-18T07:58:22.053819",
+        "color_summary": [
+          "rgba(142, 135, 128, 1.00)",
+          "rgba(124, 116, 108, 1.00)",
+          "rgba(150, 142, 132, 1.00)"
+        ],
+        "height": 306,
+        "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/femmes-illustres-a-paris-portraits/files/d0e663fa8a9719f7d63bba770cd32af5"
       }
     },
     {
-      "y_4326": 48.843582,
-      "x_4326": 2.325364,
-      "index_plaque": 6002,
-      "ardt": 6,
-      "adresse": "79 BOULEVARD DU MONTPARNASSE",
-      "emplacement": "REZ-DE-CHAUSSEE",
-      "retranscription": "LE POÈTE / RAYMOND de la TAILHÈDE, / FONDATEUR AVEC MORÉAS, / DE L’ECOLE ROMANE / EN 1891, / A HABITÉ CETTE MAISON",
-      "materiau": "marbre",
-      "taille": "25x40",
-      "titre": "Raymond de La Tailhède",
-      "siecle": "19",
-      "periode_1": null,
-      "periode_2": null,
-      "objet_1": "les écrivains et intellectuels",
-      "objet_2": null,
-      "genre": "YY",
-      "personnalite": "Raymond de La Tailhède",
-      "pays": "France",
-      "date_arret": null,
+      "name": "Virginie Hériot",
+      "tab_name": "77 Illustres Parisiennes",
+      "short_desc": "54 rue de Varenne",
+      "desc1": "Virgine Hériot était une navigatrice française et vivait au 54 rue de Varenne, une plaque commémorative est aposé sur la devanture de l'immeuble.",
+      "desc2": "Médaillée d'or aux JO de 1928 pour sa victoire sur le Yacht \"Aile VI\", elle reçoit également la Légion d'honneur et la reconnaissance des anglais la considérant comme \"la plus grand yachtwoman du monde\".",
+      "desc3": "Elle devient ambassadrice du sport nautique en France, faisant la promotion des architectes, des chantiers navals et des armateurs français",
+      "desc4": null,
+      "desc5": null,
+      "website": null,
+      "pic_url": null,
+      "thumb_url": "https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/Virginie_Heriot.jpg",
+      "long": 650224.0826,
+      "lat": 6861831.7141,
+      "created_user": null,
+      "created_date": null,
+      "last_edited_user": null,
+      "last_edited_date": null,
       "geo_shape": {
         "type": "Feature",
         "geometry": {
           "coordinates": [
-            2.3253639997111044,
-            48.84358199913569
+            2.3216290001752116,
+            48.854599999678605
           ],
           "type": "Point"
         },
         "properties": {}
       },
       "geo_point_2d": {
-        "lon": 2.3253639997111044,
-        "lat": 48.84358199913569
+        "lon": 2.3216290001752116,
+        "lat": 48.854599999678605
+      },
+      "photos": {
+        "thumbnail": true,
+        "filename": "Virginie_Heriot.jpg",
+        "width": 220,
+        "format": "JPEG",
+        "etag": "\"419fa4501325d51:0\"",
+        "mimetype": "image/jpeg",
+        "id": "89666692d2fa18f6cfdbedfd2d01a3b6",
+        "last_synchronized": "2019-06-18T07:58:41.353188",
+        "color_summary": [
+          "rgba(104, 104, 104, 1.00)",
+          "rgba(64, 64, 64, 1.00)",
+          "rgba(47, 47, 47, 1.00)"
+        ],
+        "height": 280,
+        "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/femmes-illustres-a-paris-portraits/files/89666692d2fa18f6cfdbedfd2d01a3b6"
       }
     },
     {
-      "y_4326": 48.84161,
-      "x_4326": 2.331487,
-      "index_plaque": 6003,
-      "ardt": 6,
-      "adresse": "127 BOULEVARD DU MONTPARNASSE",
-      "emplacement": "PREMIER ETAGE",
-      "retranscription": "DANS CETTE MAISON / HABITA LE PEINTRE J-B. JONGKIND / PRÉCURSEUR / DE L’IMPRESSIONNISME / NÉ EN HOLLANDE / MORT à LA CÔTE ST-ANDRÉ / 1819-1891",
-      "materiau": "marbre",
-      "taille": "30x45",
-      "titre": "Johan Barthold Jongkind",
-      "siecle": "19",
-      "periode_1": null,
-      "periode_2": null,
-      "objet_1": "les artistes (beaux-arts)",
-      "objet_2": null,
-      "genre": "YY",
-      "personnalite": "Johan Barthold Jongkind",
-      "pays": "France, Pays-Bas",
-      "date_arret": null,
+      "name": "Tamara de Lempîcka",
+      "tab_name": "77 Illustres Parisiennes",
+      "short_desc": "7 rue Méchain",
+      "desc1": "Tamara de Lempicka est une peintre Art-déco du 19è siècle, dont les toiles illustrent la volonté d'émancipation des femmes.",
+      "desc2": "Elle habitait au 7 rue Méchain qui était également son atelier de création.",
+      "desc3": "Mariée à un baron et lesbienne assumée elle est connue pour ses frasques, ses dépenses somptueuses, sa vie théâtrale et mondaine.Elle tombe dans l'oubli jusque dans les années 70 moment où l'on redécouvre l'art déco.",
+      "desc4": "Madonna utilise une de ses toile intitulée \"Andromède\" dans son clip Open Your eyes",
+      "desc5": null,
+      "website": null,
+      "pic_url": null,
+      "thumb_url": "https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/Tamara_de_Lempicka.jpg",
+      "long": 651591.3817,
+      "lat": 6859699.9213,
+      "created_user": null,
+      "created_date": null,
+      "last_edited_user": null,
+      "last_edited_date": null,
       "geo_shape": {
         "type": "Feature",
         "geometry": {
           "coordinates": [
-            2.3314869994058496,
-            48.84160999886912
+            2.3405050006670605,
+            48.83553299982472
           ],
           "type": "Point"
         },
         "properties": {}
       },
       "geo_point_2d": {
-        "lon": 2.3314869994058496,
-        "lat": 48.84160999886912
+        "lon": 2.3405050006670605,
+        "lat": 48.83553299982472
+      },
+      "photos": {
+        "thumbnail": true,
+        "filename": "Tamara_de_Lempicka.jpg",
+        "width": 220,
+        "format": "JPEG",
+        "etag": "\"4526e4d1325d51:0\"",
+        "mimetype": "image/jpeg",
+        "id": "e205b5d2d2123b7dc49be98c6abab4f3",
+        "last_synchronized": "2019-06-18T07:58:24.052584",
+        "color_summary": [
+          "rgba(85, 85, 85, 1.00)",
+          "rgba(49, 49, 49, 1.00)",
+          "rgba(20, 20, 20, 1.00)"
+        ],
+        "height": 412,
+        "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/femmes-illustres-a-paris-portraits/files/e205b5d2d2123b7dc49be98c6abab4f3"
       }
     },
     {
-      "y_4326": 48.854362,
-      "x_4326": 2.306293,
-      "index_plaque": 7032,
-      "ardt": 7,
-      "adresse": "1 PLACE DE L ECOLE MILITAIRE",
-      "emplacement": "RDC",
-      "retranscription": "LE 12 DECEMBRE 1941,/LA POLICE MILITAIRE ALLEMANDE, ASSISTEE DE LA POLICE FRANCAISE,/A ARRETE 743 PERSONNALITES JUIVES FRANCAISES, EN MAJORITE ANCIENS COMBATTANTS/ET PROFESSIONS LIBERALES, ET LES A REGROUPEES DANS LE MANEGE/”COMMANDANT BOSSUS” DE L'ECOLE MILITAIRE./LES 743 ONT ETE INTERNES DANS LE CAMP ALLEMAND DE ROYALIEU A COMPIEGNE/ OU CERTAINS SONT MORTS DE FAIM ET DE FROID./LE 27 MARS 1942, LA PLUPART DES 743 ONT ETE DEPORTES PAR LE PREMIER CONVOI/ PARTI DE FRANCE A DESTINATION D'AUSCHWITZ, OU ILS ONT ETE ASSASSINES. N'OUBLIONS PAS CES VICTIMES DE LA HAINE RACIALE./ Les fils et filles des Déportés Juifs de France. Josette et Jean-Jacques FRAENKEL à la mémoire de leur Père",
-      "materiau": "marbre",
-      "taille": null,
-      "titre": "Rafle du 12 décembre 1941 - école militaire",
-      "siecle": "20",
-      "periode_1": "Seconde Guerre mondiale",
-      "periode_2": null,
-      "objet_1": "évènements et faits historiques",
-      "objet_2": "les victimes civiles de guerre",
-      "genre": null,
-      "personnalite": null,
-      "pays": "France",
-      "date_arret": null,
+      "name": "Simone Signoret",
+      "tab_name": "Comédiennes",
+      "short_desc": "15 place Dauphine",
+      "desc1": "Auteure et actrice française Simone Signoret tourne avec les plus grands.",
+      "desc2": "Elle est la seconde actrice française à recevoir l’oscar de la meilleure actrice en 1960, puis le César de la meilleure actrice en 1977.",
+      "desc3": "Populaire auprès des français, elle tiendra de nombreux rôles tout au long de sa carrière et n’hésitera pas à affirmer ses idées politiques en signant par exemple le Manifeste des 121 en 1960, déclaration sur le droit à l’insoumission dans la guerre d’Algérie.",
+      "desc4": "Mariée à Yves Montand ils passeront une partie de leur vie dans l’ancienne librairie « la Roulotte » au 15 place Dauphine.",
+      "desc5": "Tous deux reposent aujourd’hui au Père-Lachaise.",
+      "website": null,
+      "pic_url": null,
+      "thumb_url": "https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/Simone_Signoret.jpg",
+      "long": 651741.099,
+      "lat": 6862013.9223,
+      "created_user": null,
+      "created_date": null,
+      "last_edited_user": null,
+      "last_edited_date": null,
       "geo_shape": {
         "type": "Feature",
         "geometry": {
           "coordinates": [
-            2.3062930005893922,
-            48.85436199919874
+            2.342282000619588,
+            48.85635400015491
           ],
           "type": "Point"
         },
         "properties": {}
       },
       "geo_point_2d": {
-        "lon": 2.3062930005893922,
-        "lat": 48.85436199919874
+        "lon": 2.342282000619588,
+        "lat": 48.85635400015491
+      },
+      "photos": {
+        "thumbnail": true,
+        "filename": "Simone_Signoret.jpg",
+        "width": 220,
+        "format": "JPEG",
+        "etag": "\"37e050381325d51:0\"",
+        "mimetype": "image/jpeg",
+        "id": "161019afe78ddb1a2c95c937ad55bdf6",
+        "last_synchronized": "2019-06-18T07:58:29.627496",
+        "color_summary": [
+          "rgba(162, 162, 162, 1.00)",
+          "rgba(74, 74, 74, 1.00)",
+          "rgba(37, 37, 37, 1.00)"
+        ],
+        "height": 306,
+        "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/femmes-illustres-a-paris-portraits/files/161019afe78ddb1a2c95c937ad55bdf6"
       }
     },
     {
-      "y_4326": 48.8631,
-      "x_4326": 2.3181,
-      "index_plaque": 7047,
-      "ardt": 7,
-      "adresse": "QUAI DE LA SEINE",
-      "emplacement": "RDC",
-      "retranscription": "F.F.I. MAQUIS DE LORRIS/(LOIRET)/MORT POUR LA FRANCE/25 AOUT 1944/BILLAND CLAUDE",
-      "materiau": "marbre",
-      "taille": null,
-      "titre": "Claude Billand",
-      "siecle": "20",
-      "periode_1": "Seconde Guerre mondiale",
-      "periode_2": "Libération de Paris",
-      "objet_1": "les Résistants",
-      "objet_2": "les Morts pour la France",
-      "genre": "YY",
-      "personnalite": "Claude Billand",
-      "pays": "France",
-      "date_arret": null,
+      "name": "Anne de Rochechouart de Mortemart, duchesse d'Uzès",
+      "tab_name": "Sportives",
+      "short_desc": "76, avenue des Champs-Élysées",
+      "desc1": "De 1880 à 1902 la pilote automobile Anne de Rochechouart, duchesse d'Uzès achète le somptueux hôtel d'Espagne, devenu pour l'occasion l'hôtel d'Uzès.",
+      "desc2": "Avec ses amies Jeanne Schmahl et Juliette Adam, elle revendique le droit pour une femme mariée de toucher un salaire et d'en disposer librement, leur demande sera acceptée en 1907.",
+      "desc3": "Anne de Rochechouart obtient le premier certificat de capacité féminin, le 12 mai 1898.",
+      "desc4": "Elle est aussi la première femme à recevoir une amende de verbalisation pour excès de vitesse au volant de sa Delahaye.",
+      "desc5": null,
+      "website": null,
+      "pic_url": null,
+      "thumb_url": "https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/Duchesse_d_Uzes.jpg",
+      "long": 648972.1938,
+      "lat": 6863684.9656,
+      "created_user": null,
+      "created_date": null,
+      "last_edited_user": null,
+      "last_edited_date": null,
       "geo_shape": {
         "type": "Feature",
         "geometry": {
           "coordinates": [
-            2.318100000355612,
-            48.863099999078734
+            2.3043460006164715,
+            48.87116799989366
           ],
           "type": "Point"
         },
         "properties": {}
       },
       "geo_point_2d": {
-        "lon": 2.318100000355612,
-        "lat": 48.863099999078734
+        "lon": 2.3043460006164715,
+        "lat": 48.87116799989366
+      },
+      "photos": {
+        "thumbnail": true,
+        "filename": "Duchesse_d_Uzes.jpg",
+        "width": 220,
+        "format": "JPEG",
+        "etag": "\"db1999481225d51:0\"",
+        "mimetype": "image/jpeg",
+        "id": "c7e7d64f6848b42e3e465431103d5711",
+        "last_synchronized": "2019-06-18T07:58:38.831103",
+        "color_summary": [
+          "rgba(209, 209, 209, 1.00)",
+          "rgba(189, 189, 189, 1.00)",
+          "rgba(169, 169, 169, 1.00)"
+        ],
+        "height": 295,
+        "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/femmes-illustres-a-paris-portraits/files/c7e7d64f6848b42e3e465431103d5711"
       }
     },
     {
-      "y_4326": 48.857937,
-      "x_4326": 2.329609,
-      "index_plaque": 7057,
-      "ardt": 7,
-      "adresse": "36 RUE DE VERNEUIL",
-      "emplacement": "RDC",
-      "retranscription": "ICI/EST MORT /POUR LA FRANCE/LE LIEUTENANT/PIERRE MAROGER/A L’AGE DE 20 ANS/LE 21 AOUT 1944",
-      "materiau": "marbre",
-      "taille": null,
-      "titre": "Pierre Maroger",
-      "siecle": "20",
-      "periode_1": "Seconde Guerre mondiale",
-      "periode_2": "Libération de Paris",
-      "objet_1": "les Résistants",
-      "objet_2": "les Morts pour la France",
-      "genre": "YY",
-      "personnalite": "Pierre Maroger",
-      "pays": "France",
-      "date_arret": null,
+      "name": "Anne-Sophie Pic",
+      "tab_name": "77 Illustres Parisiennes",
+      "short_desc": "20 rue du louvre",
+      "desc1": "Fille et petite-fille de chefs triplement étoilés au Michelin, Anne-Sophie Pic tient ici son restaurant la Dame de Pic depuis 2012.",
+      "desc2": "En 2007 elle gagne une étoile au Michelin et est élue \"cheffe de l'année\" par les guides Michelin.",
+      "desc3": "Elle fait partie des rares cheffes à avoir reçu les 3 étoiles",
+      "desc4": null,
+      "desc5": null,
+      "website": null,
+      "pic_url": null,
+      "thumb_url": "https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/Anne-Sophie_Pic.jpg",
+      "long": 651669.8839,
+      "lat": 6862580.853,
+      "created_user": null,
+      "created_date": null,
+      "last_edited_user": null,
+      "last_edited_date": null,
       "geo_shape": {
         "type": "Feature",
         "geometry": {
           "coordinates": [
-            2.329608999832815,
-            48.85793699899464
+            2.341246999720436,
+            48.861446999955874
           ],
           "type": "Point"
         },
         "properties": {}
       },
       "geo_point_2d": {
-        "lon": 2.329608999832815,
-        "lat": 48.85793699899464
+        "lon": 2.341246999720436,
+        "lat": 48.861446999955874
+      },
+      "photos": {
+        "thumbnail": true,
+        "filename": "Anne-Sophie_Pic.jpg",
+        "width": 220,
+        "format": "JPEG",
+        "etag": "\"3ec34c161225d51:0\"",
+        "mimetype": "image/jpeg",
+        "id": "2ecfbbc5d47f163ad9dbb61db348c2c5",
+        "last_synchronized": "2019-06-18T07:58:24.590916",
+        "color_summary": [
+          "rgba(40, 26, 25, 1.00)",
+          "rgba(113, 105, 104, 1.00)",
+          "rgba(115, 109, 106, 1.00)"
+        ],
+        "height": 330,
+        "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/femmes-illustres-a-paris-portraits/files/2ecfbbc5d47f163ad9dbb61db348c2c5"
       }
     },
     {
-      "y_4326": 48.858711,
-      "x_4326": 2.327563,
-      "index_plaque": 7061,
-      "ardt": 7,
-      "adresse": "52 RUE DE VERNEUIL",
-      "emplacement": "RDC",
-      "retranscription": "DANS CET IMMEUBLE/ET DANS L’APPARTEMENT/DE CHRISTIAN PINEAU/EN OCTOBRE 1940/A ETE CREE LE MOUVEMENT/LIBERATION NORD/LE PLUS IMPORTANT DE LA RESISTANCE/EN ZONE OCCUPEE",
-      "materiau": "marbre",
-      "taille": null,
-      "titre": "Création du mouvement Libération Nord",
-      "siecle": "20",
-      "periode_1": "Seconde Guerre mondiale",
-      "periode_2": null,
-      "objet_1": "évènements et faits historiques",
-      "objet_2": "les Résistants",
-      "genre": "YY",
-      "personnalite": "Christian Pineau",
-      "pays": "France",
-      "date_arret": null,
+      "name": "Eugénie Cotton",
+      "tab_name": "77 Illustres Parisiennes",
+      "short_desc": "Square Eugénie-Cotton, 19e",
+      "desc1": "Élève de Marie Curie à l'école normale supérieure de jeunes filles, Eugénie Cotton est reçue première au concours féminin de l'agrégation des sciences physiques et naturelles en 1904.",
+      "desc2": "Docteure en sciences physiques et maîtresse de recherche pour le CNRS, elle sera finalement directrice de l'école normale supérieure de jeunes filles en 1936.",
+      "desc3": "Eugénie Cotton est également connue pour ses engagement en résistance, mise en retraite par la Gestapo en 1941, elle fonde l'Union des femmes françaises et est présidente de la fédération démocratique internationale des femmes en 1945.",
+      "desc4": "Vice-présidente du conseil mondial pour la paix, elle consacrera à ce conseil ses derniers écrits.",
+      "desc5": null,
+      "website": null,
+      "pic_url": null,
+      "thumb_url": "https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/Eugenie_Cotton.jpg",
+      "long": 655550.9115,
+      "lat": 6864467.0787,
+      "created_user": null,
+      "created_date": null,
+      "last_edited_user": null,
+      "last_edited_date": null,
       "geo_shape": {
         "type": "Feature",
         "geometry": {
           "coordinates": [
-            2.3275629996300173,
-            48.85871099907349
+            2.3939470000217677,
+            48.87868900019108
           ],
           "type": "Point"
         },
         "properties": {}
       },
       "geo_point_2d": {
-        "lon": 2.3275629996300173,
-        "lat": 48.85871099907349
+        "lon": 2.3939470000217677,
+        "lat": 48.87868900019108
+      },
+      "photos": {
+        "thumbnail": true,
+        "filename": "Eugenie_Cotton.jpg",
+        "width": 220,
+        "format": "JPEG",
+        "etag": "\"ba31e3551225d51:0\"",
+        "mimetype": "image/jpeg",
+        "id": "48e965e36a725c678e7b6756533cfa1c",
+        "last_synchronized": "2019-06-18T07:58:36.367741",
+        "color_summary": [
+          "rgba(178, 178, 177, 1.00)",
+          "rgba(186, 186, 186, 1.00)",
+          "rgba(75, 74, 78, 1.00)"
+        ],
+        "height": 271,
+        "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/femmes-illustres-a-paris-portraits/files/48e965e36a725c678e7b6756533cfa1c"
       }
     },
     {
-      "y_4326": 48.858817,
-      "x_4326": 2.330011,
-      "index_plaque": 7079,
-      "ardt": 7,
-      "adresse": "5 RUE DE BEAUNE",
-      "emplacement": "Premier",
-      "retranscription": "ICI EST MORT/LE 22 MARS 1924/LOUIS DELLUC/ECRIVAIN ET AUTEUR DE FILMS/HOMAGE DE/L’ASSOCIATION FRANCAISE/DE LA CRITIQUE DE CINEMA/LE 22 MARS 1949",
-      "materiau": "marbre",
-      "taille": null,
-      "titre": "Louis Delluc",
-      "siecle": "19-20",
-      "periode_1": null,
-      "periode_2": null,
-      "objet_1": "les écrivains et intellectuels",
-      "objet_2": "les artistes (théâtre et cinéma)",
-      "genre": "YY",
-      "personnalite": "Louis Delluc",
-      "pays": "France",
-      "date_arret": null,
+      "name": "Lala Kaira",
+      "tab_name": "Sportives",
+      "short_desc": "19 bis, rue Pierre-Fontaine",
+      "desc1": "Acrobate du cirque Fernando connue sous le nom de Miss Lala exécute des numéros de trapézistes, de femme-canon et de fil-fildefériste.",
+      "desc2": "Edmond de Goncourt la rencontre dans l'atelier Degas du 19bis, rue Pierre-Fontaine où il s'en inspire pour documenter son roman de 1878, \"Les Frères Zemganno\".",
+      "desc3": "On peut la voir dans un tableau de Degas  de 1879, conservé à Londres à la National Gallery.",
+      "desc4": "on la voit également suspendue à un trapèze portant un canon à la seule force de sa mâchoire sur une affiche de Jules Chéret pour les Folies-Bergères.",
+      "desc5": null,
+      "website": null,
+      "pic_url": null,
+      "thumb_url": "https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/Miss_Lala.jpg",
+      "long": 651159.2757,
+      "lat": 6864830.3841,
+      "created_user": null,
+      "created_date": null,
+      "last_edited_user": null,
+      "last_edited_date": null,
       "geo_shape": {
         "type": "Feature",
         "geometry": {
           "coordinates": [
-            2.3300110001303467,
-            48.85881699892616
+            2.334028999752491,
+            48.88163800035382
           ],
           "type": "Point"
         },
         "properties": {}
       },
       "geo_point_2d": {
-        "lon": 2.3300110001303467,
-        "lat": 48.85881699892616
+        "lon": 2.334028999752491,
+        "lat": 48.88163800035382
+      },
+      "photos": {
+        "thumbnail": true,
+        "filename": "Miss_Lala.jpg",
+        "width": 220,
+        "format": "JPEG",
+        "etag": "\"a5daca11325d51:0\"",
+        "mimetype": "image/jpeg",
+        "id": "aa151d764123fe725657a1ec571fd9b1",
+        "last_synchronized": "2019-06-18T07:58:40.773491",
+        "color_summary": [
+          "rgba(183, 143, 79, 1.00)",
+          "rgba(181, 141, 77, 1.00)",
+          "rgba(165, 126, 66, 1.00)"
+        ],
+        "height": 301,
+        "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/femmes-illustres-a-paris-portraits/files/aa151d764123fe725657a1ec571fd9b1"
       }
     },
     {
-      "y_4326": 48.858816,
-      "x_4326": 2.330937,
-      "index_plaque": 7085,
-      "ardt": 7,
-      "adresse": "21 QUAI VOLTAIRE",
-      "emplacement": "RDC",
-      "retranscription": "LE PEINTRE MARCEL BASCHET/PRIX DE ROME/MEMBE DE L’INSTITUT/eut son atelier/dans cette maison/de 1907 à 1941",
-      "materiau": "marbre",
-      "taille": null,
-      "titre": "Marcel Baschet",
-      "siecle": "19-20",
-      "periode_1": null,
-      "periode_2": null,
-      "objet_1": "les artistes (beaux-arts)",
-      "objet_2": null,
-      "genre": "YY",
-      "personnalite": "Marcel Baschet",
-      "pays": "France",
-      "date_arret": null,
+      "name": "Nafissa Sid Cara",
+      "tab_name": "77 Illustres Parisiennes",
+      "short_desc": "78 rue de lille",
+      "desc1": "Première femme musulmane du gouvernement français.",
+      "desc2": "Nafissa Sid Cara est élue en 1958 en tant que députée d'Alger à l'Assemble Nationale française et devient secrétaire d'Etat \"chargée des questions sociales en Algérie et de l'évolution du statut personnel de droit musulman\", à l'hôtel de Beauharnais, rue de Lille.",
+      "desc3": "Elle y restera jusqu'au 14 avril 1962 où elle oeuvre à la promotion des femmes musulmanes.",
+      "desc4": "Par la suite, elle sera inspectrice générale des affaires sociales jusqu'en 1975 et en 1979, membre de la commission nationale chargée de l'étude des problèmes des français musulmans.",
+      "desc5": null,
+      "website": null,
+      "pic_url": null,
+      "thumb_url": "https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/Nafissa_Sid_Cara.jpg",
+      "long": 650286.7974,
+      "lat": 6862512.9381,
+      "created_user": null,
+      "created_date": null,
+      "last_edited_user": null,
+      "last_edited_date": null,
       "geo_shape": {
         "type": "Feature",
         "geometry": {
           "coordinates": [
-            2.330936999983425,
-            48.85881599946963
+            2.3224039999271597,
+            48.86073100038572
           ],
           "type": "Point"
         },
         "properties": {}
       },
       "geo_point_2d": {
-        "lon": 2.330936999983425,
-        "lat": 48.85881599946963
+        "lon": 2.3224039999271597,
+        "lat": 48.86073100038572
+      },
+      "photos": {
+        "thumbnail": true,
+        "filename": "Nafissa_Sid_Cara.jpg",
+        "width": 220,
+        "format": "JPEG",
+        "etag": "\"b1dc1981325d51:0\"",
+        "mimetype": "image/jpeg",
+        "id": "ed337e7f15fd4ca87a7e05113d0a523a",
+        "last_synchronized": "2019-06-18T07:58:34.964235",
+        "color_summary": [
+          "rgba(136, 136, 136, 1.00)",
+          "rgba(163, 163, 163, 1.00)",
+          "rgba(130, 130, 130, 1.00)"
+        ],
+        "height": 306,
+        "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/femmes-illustres-a-paris-portraits/files/ed337e7f15fd4ca87a7e05113d0a523a"
       }
     },
     {
-      "y_4326": 48.857591,
-      "x_4326": 2.322329,
-      "index_plaque": 7109,
-      "ardt": 7,
-      "adresse": "31, RUE DE BELLECHASSE",
-      "emplacement": "RDC",
-      "retranscription": "VILLEMIN JEAN ANTOINE/1827 – 1892/MEDECIN INSPECTEUR DE L’ARMEE/PROFESSEUR AU VAL DE GRACE/BIENFAITEUR DE L’HUMANITE/PAR L’IMMORTELLE DECOUVERTE EN 1865/DE L’INOCULABILITE DE LA TUBERCULOSE/A VECU DANS CETTE MAISON/OU IL EST MORT LE 3 OCTOBRE 1892/OFFERT PAR L'ASSOCIATION AMICALE DU VAL DE GRÂCE",
-      "materiau": "pierre",
-      "taille": null,
-      "titre": "Jean-Antoine Villemin",
-      "siecle": "19",
-      "periode_1": null,
-      "periode_2": null,
-      "objet_1": "les médecins et scientifiques",
-      "objet_2": null,
-      "genre": "YY",
-      "personnalite": "Jean-Antoine Villemin",
-      "pays": "France",
-      "date_arret": null,
+      "name": "Gisèle Halimi",
+      "tab_name": "77 Illustres Parisiennes",
+      "short_desc": "102 rue saint dominique",
+      "desc1": "Gisèle Halimi est une féministe luttant pour la dépénalisation de l'avortement avec le mouvement \"choisir la cause des Femmes\", spécialisé dans le droit des femmes, et fondé au 102 rue Saint-Dominique par Gisèle Halimi avec Simone de Beauvoir et Edmond Rostand.",
+      "desc2": "Avocate de renom elle signe le Manifeste des 343 femmes qui déclarent avoir avorté et réclame le droit de prise de moyen de contraception.",
+      "desc3": "Députée de 1981 à 1984, Gisèle Halimi dénonce se bat contre la misogynie au sein de l'Assemblée.",
+      "desc4": null,
+      "desc5": null,
+      "website": null,
+      "pic_url": null,
+      "thumb_url": "https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/Gisele_Halimi.jpg",
+      "long": 648937.2717,
+      "lat": 6862336.1927,
+      "created_user": null,
+      "created_date": null,
+      "last_edited_user": null,
+      "last_edited_date": null,
       "geo_shape": {
         "type": "Feature",
         "geometry": {
           "coordinates": [
-            2.3223289993170173,
-            48.857590999204525
+            2.3040320003114125,
+            48.85903599981266
           ],
           "type": "Point"
         },
         "properties": {}
       },
       "geo_point_2d": {
-        "lon": 2.3223289993170173,
-        "lat": 48.857590999204525
+        "lon": 2.3040320003114125,
+        "lat": 48.85903599981266
+      },
+      "photos": {
+        "exif_orientation": 1,
+        "thumbnail": true,
+        "filename": "Gisele_Halimi.jpg",
+        "width": 220,
+        "format": "JPEG",
+        "etag": "\"98520b11225d51:0\"",
+        "mimetype": "image/jpeg",
+        "id": "3593337054f848c698c8d4b8a41c4379",
+        "last_synchronized": "2019-06-18T07:58:34.169775",
+        "color_summary": [
+          "rgba(101, 86, 80, 1.00)",
+          "rgba(100, 66, 56, 1.00)",
+          "rgba(129, 109, 80, 1.00)"
+        ],
+        "height": 293,
+        "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/femmes-illustres-a-paris-portraits/files/3593337054f848c698c8d4b8a41c4379"
       }
     },
     {
-      "y_4326": 48.848574,
-      "x_4326": 2.32884,
-      "index_plaque": 6042,
-      "ardt": 6,
-      "adresse": "20 RUE DE ASSAS",
-      "emplacement": "PREMIER ETAGE",
-      "retranscription": "SUR L'EMPLACEMENT / DE CETTE MAISON ET DES IMMEUBLES VOISINS / S'ETENDAIT LA PROPRIETE / OCCUPEE EN PARTIE PAR L'ATELIER DU SCULPTEUR / DAVID D'ANGERS / ET PAR L'HOTEL OU IL MOURUT / LE 5 JANVIER 1856",
-      "materiau": "pierre",
-      "taille": "35x60",
-      "titre": "Pierre-Jean David d'Angers",
-      "siecle": "18-19",
-      "periode_1": null,
-      "periode_2": null,
-      "objet_1": "les artistes (beaux-arts)",
-      "objet_2": null,
-      "genre": "YY",
-      "personnalite": "Pierre-Jean David d'Angers",
-      "pays": "France",
-      "date_arret": null,
+      "name": "Justine Piluso",
+      "tab_name": "Cheffes",
+      "short_desc": "59 Rue Letellier",
+      "desc1": "Classé en tête des meilleur restaurant parisiens, les cuisines du restaurant Le Cappiello sont tenues par Justine Piluso depuis janvier 2017.",
+      "desc2": "Justine Piluso formée en cuisine à l'institut Bocuse propose des plats à bases de produits frais et une cuisine simple dans son restaurant qu'elle considère comme bistrot de quartier.",
+      "desc3": "A moins de 30ans la cheffe séduit les parisiens et les touristes voulant découvrir Paris hors des sentiers battus.",
+      "desc4": null,
+      "desc5": null,
+      "website": null,
+      "pic_url": null,
+      "thumb_url": "https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/NoPhoto.png",
+      "long": 648545.9209,
+      "lat": 6861000.0405,
+      "created_user": null,
+      "created_date": null,
+      "last_edited_user": null,
+      "last_edited_date": null,
       "geo_shape": {
         "type": "Feature",
         "geometry": {
           "coordinates": [
-            2.3288400001830856,
-            48.848573998745294
+            2.2988599998688204,
+            48.846988999715016
           ],
           "type": "Point"
         },
         "properties": {}
       },
       "geo_point_2d": {
-        "lon": 2.3288400001830856,
-        "lat": 48.848573998745294
+        "lon": 2.2988599998688204,
+        "lat": 48.846988999715016
+      },
+      "photos": {
+        "thumbnail": true,
+        "filename": "NoPhoto.png",
+        "width": 220,
+        "format": "PNG",
+        "etag": "\"34f923131325d51:0\"",
+        "mimetype": "image/png",
+        "id": "58ac627c790ecd94e05883c83a2c9111",
+        "last_synchronized": "2019-06-18T07:58:25.615240",
+        "color_summary": [],
+        "height": 220,
+        "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/femmes-illustres-a-paris-portraits/files/58ac627c790ecd94e05883c83a2c9111"
       }
     },
     {
-      "y_4326": 48.86832,
-      "x_4326": 2.34308,
-      "index_plaque": 2903,
-      "ardt": 2,
-      "adresse": "111-113 RUE RÉAUMUR",
-      "emplacement": "façade RDC",
-      "retranscription": "LE 21 AOÛT 1944 / LE PERSONNEL DES MESSAGERIES DE PRESSE, EN ACCORD AVEC / LA FÉDÉRATION NATIONALE DE LA PRESSE CLANDESTINE, / DANS UN ÉLAN PATRIOTIQUE, A CHASSÉ D’ICI / L’OCCUPANT NAZI ET LES COLLABORATEURS, / A NOMMÉ SA DIRECTION ET ORGANISÉ / EN PLEINE INSURRECTION / LA DIFFUSION DES JOURNAUX LIBRES / HONNEUR AUX OUVRIERS RÉSISTANTS / DES MESSAGERIES MORTS POUR LA FRANCE.",
-      "materiau": "comblanchien",
-      "taille": "40x80",
-      "titre": "Messageries de presse",
-      "siecle": "20",
-      "periode_1": "Seconde Guerre mondiale",
-      "periode_2": "Libération de Paris",
-      "objet_1": "évènements et faits historiques",
-      "objet_2": "les Résistants",
-      "genre": null,
-      "personnalite": null,
-      "pays": "France",
-      "date_arret": null,
+      "name": "Germaine Poinso-Chapuis",
+      "tab_name": "Politiques",
+      "short_desc": "14 avenue Duquesne",
+      "desc1": "Avocate de profession, Germaine Poinso-Chapuis s’engage en résistance avec le Mouvement de libération nationale.",
+      "desc2": "Après la Libération, elle sera en 1947 la première femme ministre française, nommée à la Santé Publique ici au 14 avenue Duquesne.",
+      "desc3": "Elle demeure la seule à exercer cette fonction de 1947 à 1948 jusqu'à Simone Veil en 1974",
+      "desc4": null,
+      "desc5": null,
+      "website": null,
+      "pic_url": null,
+      "thumb_url": "https://capgeo.sig.paris.fr/PdfEtImages/ParisCelebreLesFemmes/Images/Germaine_Poinso_Chapuis.jpg",
+      "long": 649302.5808,
+      "lat": 6861562.9301,
+      "created_user": null,
+      "created_date": null,
+      "last_edited_user": null,
+      "last_edited_date": null,
       "geo_shape": {
         "type": "Feature",
         "geometry": {
           "coordinates": [
-            2.3430799996161453,
-            48.86831999871758
+            2.3091030000951713,
+            48.852110999849195
           ],
           "type": "Point"
         },
         "properties": {}
       },
       "geo_point_2d": {
-        "lon": 2.3430799996161453,
-        "lat": 48.86831999871758
+        "lon": 2.3091030000951713,
+        "lat": 48.852110999849195
+      },
+      "photos": {
+        "exif_orientation": 1,
+        "thumbnail": true,
+        "filename": "Germaine_Poinso_Chapuis.jpg",
+        "width": 220,
+        "format": "JPEG",
+        "etag": "\"312176a31225d51:0\"",
+        "mimetype": "image/jpeg",
+        "id": "c5ff37c5cb863321e8ab409e4a4f328e",
+        "last_synchronized": "2019-06-18T07:58:33.551767",
+        "color_summary": [
+          "rgba(146, 146, 146, 1.00)",
+          "rgba(142, 142, 142, 1.00)",
+          "rgba(126, 126, 126, 1.00)"
+        ],
+        "height": 306,
+        "url": "https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/femmes-illustres-a-paris-portraits/files/c5ff37c5cb863321e8ab409e4a4f328e"
       }
     }
   ]
