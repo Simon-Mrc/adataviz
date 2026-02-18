@@ -1,7 +1,8 @@
-import './style.css'
+import './style.css';
+import * as stuff from "../functions.js";
 
 async function getTheApi() {
-  const json = await fetch(`https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/femmes-illustres-a-paris-portraits/records?limit=20`);
+  const json = await fetch(`https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/femmes-illustres-a-paris-portraits/records?limit=100`);
   const theJson = await json.json();
   return theJson;
 }
@@ -26,11 +27,7 @@ function disappearWithSmoke(element) {
     }, { once: true });
   });
 }
-async function resetClass(sectionName){
-  sectionName.classList.remove("slide-in-bounce")
-  sectionName.classList.remove("smoke-disappear");
-  sectionName.style.display = ``;
-}
+
 function fiveMore(){
   for (let i = j ; i < j+5 ; i = i + 1){
     const divBox = document.createElement(`div`);
@@ -65,7 +62,7 @@ function launchSearch(searchString){ // searchString probably the result of an i
 
 };
 async function seeMore(index){ // value is stored in correct button already.
-  emptySection(seeMoreSection);
+  stuff.emptySection(seeMoreSection);
   const divBox = document.createElement(`div`);
   const photoUrl = document.createElement(`img`);
   const divBoxMini = document.createElement(`div`);
@@ -77,7 +74,11 @@ async function seeMore(index){ // value is stored in correct button already.
   photoUrl.src = theJson.results[index].photos.url; 
   divBoxMini.classList.add(`containerBox2`);
   titre.textContent = theJson.results[index].name;
-  description.textContent = theJson.results[index].desc1;
+  let j = 1;
+  while(theJson.results[index][`desc${j}`] != null && theJson.results[index][`desc${j}`] != undefined){
+    description.textContent = description.textContent + theJson.results[index][`desc${j}`];
+    j = j + 1;
+  }
   button.addEventListener("click", () =>{
     seeLess();
   });
@@ -90,24 +91,20 @@ async function seeMore(index){ // value is stored in correct button already.
   divBoxMini.appendChild(description);
   divBoxMini.appendChild(button);
 
-
-  resetClass(displaySection);
+  stuff.resetClass(displaySection);
   loadMoreButton.classList.add("hidden");
   await disappearWithSmoke(displaySection);
-  resetClass(seeMoreSection);
+  stuff.resetClass(seeMoreSection);
   seeMoreSection.classList.add("slide-in-bounce");
   // displaySection.style.display = '';
 
 };
 
-function emptySection(section){
-  section.replaceChildren();
-};
 async function seeLess(){
   // displaySection.style.display = '';
-  resetClass(seeMoreSection);
+  stuff.resetClass(seeMoreSection);
   await disappearWithSmoke(seeMoreSection);
-  resetClass(displaySection);
+  stuff.resetClass(displaySection);
   displaySection.classList.add("slide-in-bounce");
   loadMoreButton.classList.remove("hidden");
 };
