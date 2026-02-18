@@ -5,3 +5,13 @@
 many for loop mixed with while condition to prevent to many result to show.
 
 Investigate and practice more on async function and the concept of callback
+
+//// Update
+see more and display section works fine
+work on more dry js file
+add some security to my async functions
+add boundary check on loaded element
+Investigate event delegation on what is it and what it does
+obvioulsy work on css
+have to build functionnalities like search bar 
+Investigate on how to auto read json data instead of picking them up myself.

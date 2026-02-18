@@ -26,6 +26,11 @@ function disappearWithSmoke(element) {
     }, { once: true });
   });
 }
+async function resetClass(sectionName){
+  sectionName.classList.remove("slide-in-bounce")
+  sectionName.classList.remove("smoke-disappear");
+  sectionName.style.display = ``;
+}
 function fiveMore(){
   for (let i = j ; i < j+5 ; i = i + 1){
     const divBox = document.createElement(`div`);
@@ -34,7 +39,6 @@ function fiveMore(){
     const titre = document.createElement(`h1`);
     const description = document.createElement(`p`);
     const button = document.createElement(`button`);
-    const displaySection = document.getElementById("displaySection");
     
     divBox.classList.add(`containerBox`);
     photoUrl.src = theJson.results[i].photos.url; 
@@ -61,13 +65,49 @@ function launchSearch(searchString){ // searchString probably the result of an i
 
 };
 async function seeMore(index){ // value is stored in correct button already.
+  emptySection(seeMoreSection);
+  const divBox = document.createElement(`div`);
+  const photoUrl = document.createElement(`img`);
+  const divBoxMini = document.createElement(`div`);
+  const titre = document.createElement(`h1`);
+  const description = document.createElement(`p`);
+  const button = document.createElement(`button`);
+  
+  divBox.classList.add(`containerBox`);
+  photoUrl.src = theJson.results[index].photos.url; 
+  divBoxMini.classList.add(`containerBox2`);
+  titre.textContent = theJson.results[index].name;
+  description.textContent = theJson.results[index].desc1;
+  button.addEventListener("click", () =>{
+    seeLess();
+  });
+  button.textContent = "See Less";
+
+  seeMoreSection.appendChild(divBox);
+  divBox.appendChild(photoUrl);
+  divBox.appendChild(divBoxMini);
+  divBoxMini.appendChild(titre);
+  divBoxMini.appendChild(description);
+  divBoxMini.appendChild(button);
+
+
+  resetClass(displaySection);
   loadMoreButton.classList.add("hidden");
   await disappearWithSmoke(displaySection);
-  displaySection.classList.remove("hidden");
-  displaySection.classList.add("slide-in-bounce");
-  displaySection.style.display = '';
+  resetClass(seeMoreSection);
+  seeMoreSection.classList.add("slide-in-bounce");
+  // displaySection.style.display = '';
 
 };
-function seeLess(){
 
+function emptySection(section){
+  section.replaceChildren();
+};
+async function seeLess(){
+  // displaySection.style.display = '';
+  resetClass(seeMoreSection);
+  await disappearWithSmoke(seeMoreSection);
+  resetClass(displaySection);
+  displaySection.classList.add("slide-in-bounce");
+  loadMoreButton.classList.remove("hidden");
 };
