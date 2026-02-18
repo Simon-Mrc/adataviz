@@ -7,13 +7,17 @@ async function getTheApi() {
   return theJson;
 }
 const theJson = await getTheApi();
-let searchArray = []; // To fill with appropriate content from json depending on search
+console.log(theJson.results.length);
 let j = 0; // last index of displayed infos
 const searchBarSection = document.querySelector("#searchBarSection");
 const loadingScreen = document.querySelector("#loadingScreen");
 const displaySection = document.querySelector("#displaySection");
 const seeMoreSection = document.querySelector("#seeMoreSection");
-
+const searchButton = document.querySelector("#searchButton");
+searchButton.addEventListener("click", () =>{
+  const inPut = document.querySelector("#input").value;
+  launchSearch(inPut);
+})
 const loadMoreButton = document.getElementById("loadMore");
 loadMoreButton.addEventListener("click", fiveMore);
 
@@ -58,9 +62,76 @@ j = j + 5 //used to start display at stopped state
 };
 fiveMore();
 
-function launchSearch(searchString){ // searchString probably the result of an input
+async function launchSearch(searchString){ // searchString probably the result of an input
+  const searchArray = [];// To fill with appropriate content from json depending on search
+  for (let i = 0 ; i < theJson.results.length ; i = i + 1){
+    let check = 0;
+    if (theJson.results[i]["name"].toLowerCase().includes(searchString.toLowerCase().trim()) == true){
+      check = 1;
+      searchArray.push(i);
+    }
+  }
+  for (let i = 0 ; i < theJson.results.length ; i = i + 1){
+    let h = 1;
+    let check = 0;
+    while(theJson.results[i][`desc${h}`] != null && theJson.results[i][`desc${h}`] != undefined){
+      if (theJson.results[i][`desc${h}`].toLowerCase().includes(searchString.toLowerCase().trim()) == true){
+        check = 1;
+      }    
+      h = h + 1;
+    }
+    if(check == 1){
+      if(!searchArray.includes(i)){
+        searchArray.push(i);
 
+      }
+    }
+  }
+  searchBarSection.replaceChildren();
+  const namecheck = [];
+  for (let i = 0 ; i < searchArray.length ; i = i + 1){
+    if(!namecheck.includes(theJson.results[searchArray[i]].name)){
+    
+      namecheck.push(theJson.results[searchArray[i]].name);
+      const divBox = document.createElement(`div`);
+      const photoUrl = document.createElement(`img`);
+      const divBoxMini = document.createElement(`div`);
+      const titre = document.createElement(`h1`);
+      const description = document.createElement(`p`);
+      const button = document.createElement(`button`);
+      
+      divBox.classList.add(`containerBox`);
+      photoUrl.src = theJson.results[searchArray[i]].photos.url; 
+      divBoxMini.classList.add(`containerBox2`);
+      titre.textContent = theJson.results[searchArray[i]].name;
+      description.textContent = theJson.results[searchArray[i]].desc1;
+      button.addEventListener("click", () =>{
+        seeMore(searchArray[i]);
+      });
+      button.textContent = "See More";
+      
+      searchBarSection.appendChild(divBox);
+      divBox.appendChild(photoUrl);
+      divBox.appendChild(divBoxMini);
+      divBoxMini.appendChild(titre);
+      divBoxMini.appendChild(description);
+      divBoxMini.appendChild(button);
+    }
+        
+    }
+  if (displaySection.style.display != 'none'){
+    stuff.resetClass(displaySection);
+    await disappearWithSmoke(displaySection);
+    searchBarSection.classList.add("slide-in-bounce");
+  }
+  if (searchBarSection.style.display != ''){
+    
+  }
+  if (seeMoreSection.style.display != ''){
+    
+  }
 };
+
 async function seeMore(index){ // value is stored in correct button already.
   stuff.emptySection(seeMoreSection);
   const divBox = document.createElement(`div`);

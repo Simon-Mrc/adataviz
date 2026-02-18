@@ -15,3 +15,9 @@ Investigate event delegation on what is it and what it does
 obvioulsy work on css
 have to build functionnalities like search bar 
 Investigate on how to auto read json data instead of picking them up myself.
+
+
+si search pas display none alors is display . reset class go smoke
+si seeMore pas display none alors is display . reset class go smoke et empty
+si display pas display none alors is diplay reset class and go smoke
+add home button just on search display
