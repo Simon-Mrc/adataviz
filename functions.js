@@ -7,3 +7,11 @@ export async function resetClass(sectionName){
 export function emptySection(section){
     section.replaceChildren();
 };
+// async function displayDisappear(displayed){
+//   stuff.resetClass(displayed);
+//   disappearWithSmoke(displayed);
+// }
+// function displayAppear(displayed){
+//   stuff.resetClass(displayed);
+//   displayed.classList.add("slide-in-bounce");
+// }

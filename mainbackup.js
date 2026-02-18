@@ -62,7 +62,7 @@ function fiveMore(){
       seeMore(i);
     });
     button.textContent = "See More";
-   
+
     displaySection.appendChild(divBox);
     divBox.appendChild(photoUrl);
     divBox.appendChild(divBoxMini);
@@ -75,8 +75,11 @@ j = j + 5 //used to start display at stopped state
 };
 fiveMore();
 console.log(seeMoreSection);
-
 async function launchSearch(searchString){ // searchString probably the result of an input
+  // if (searchBarSection.style.display != 'none'){
+  //   stuff.resetClass(searchBarSection);
+  //   await disappearWithSmoke(searchBarSection);
+  // }
   currentDisplay = searchBarSection;
   const searchArray = [];// To fill with appropriate content from json depending on search
   for (let i = 0 ; i < theJson.results.length ; i = i + 1){
@@ -98,10 +101,10 @@ async function launchSearch(searchString){ // searchString probably the result o
     if(check == 1){
       if(!searchArray.includes(i)){
         searchArray.push(i);
+
       }
     }
   }
-  await displayDisappear(lastDisplay);
   searchBarSection.replaceChildren();
   const namecheck = [];
   for (let i = 0 ; i < searchArray.length ; i = i + 1){
@@ -131,9 +134,23 @@ async function launchSearch(searchString){ // searchString probably the result o
       divBoxMini.appendChild(titre);
       divBoxMini.appendChild(description);
       divBoxMini.appendChild(button);
-    }        
-  }
-
+    }
+        
+    }
+  // if (displaySection.style.display != 'none'){
+  //   stuff.resetClass(displaySection);
+  //   await disappearWithSmoke(displaySection);
+  //   stuff.resetClass(searchBarSection);
+  //   searchBarSection.classList.add("slide-in-bounce");
+  // }
+  // else if (seeMoreSection.style.display != 'none'){
+    
+  // }
+  // else if (seeMoreSection.style.display == 'none' && displaySection.style.display == 'none'){
+  //   stuff.resetClass(searchBarSection);
+  //   searchBarSection.classList.add("slide-in-bounce");
+  // }
+  await displayDisappear(lastDisplay);
   displayAppear(currentDisplay);
   lastDisplay = currentDisplay;
   console.log(seeMoreSection);
@@ -171,11 +188,25 @@ async function seeMore(index){ // value is stored in correct button already.
   divBoxMini.appendChild(description);
   divBoxMini.appendChild(button);
 
+  // stuff.resetClass(displaySection);
+  // loadMoreButton.classList.add("hidden");
+  // await disappearWithSmoke(displaySection);
+  // stuff.resetClass(searchBarSection);
+  // await disappearWithSmoke(searchBarSection);
+  // stuff.resetClass(seeMoreSection);
+  // seeMoreSection.classList.add("slide-in-bounce");
+  // displaySection.style.display = '';
   await displayDisappear(lastDisplay);
   displayAppear(currentDisplay);
 };
 
 async function seeLess(){
+  // displaySection.style.display = '';
+  // stuff.resetClass(seeMoreSection);
+  // await disappearWithSmoke(seeMoreSection);
+  // stuff.resetClass(displaySection);
+  // displaySection.classList.add("slide-in-bounce");
+  // loadMoreButton.classList.remove("hidden");
   await displayDisappear(currentDisplay);
   displayAppear(lastDisplay);
 };
