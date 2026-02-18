@@ -1,23 +1,28 @@
-#1 Need to create all html structure to have things to work on in js 
-#2 Work on basic js to fill content with data from api
-
-
-many for loop mixed with while condition to prevent to many result to show.
-
-Investigate and practice more on async function and the concept of callback
+Investigate and practice more the concept of callback
 
 //// Update
-see more and display section works fine
-work on more dry js file
 add some security to my async functions
 add boundary check on loaded element
 Investigate event delegation on what is it and what it does
-obvioulsy work on css
-have to build functionnalities like search bar 
+ 
 Investigate on how to auto read json data instead of picking them up myself.
 
+// left to be done (Mandatory)
+add a loading screen
+word on css for the search bar.
+Maybe a little more work on css for buttons.
 
-si search pas display none alors is display . reset class go smoke
-si seeMore pas display none alors is display . reset class go smoke et empty
-si display pas display none alors is diplay reset class and go smoke
-add home button just on search display
+// Fun project overhall
+
+great work on async and await 
+improved comprehension for promise concept
+fun thinkings about how to create the site and how to make animations smooths thgrough different section
+Love to see the result with an empty html index
+improved use of console log and web inspector
+
+// Axes of improvement
+
+Obviously need to start using try catch method
+need to get better intuition on how to proceed and what to track
+
+// Good luck on anyone reading the script tryin to understand how the site is made

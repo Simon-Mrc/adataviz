@@ -19,11 +19,10 @@ searchButton.addEventListener("click", () =>{
   const inPut = document.querySelector("#input").value;
   launchSearch(inPut);
 })
-const loadMoreButton = document.getElementById("loadMore");
-loadMoreButton.addEventListener("click", fiveMore);
 seeMoreSection.style.display = 'none';
 let currentDisplay = displaySection;
 let lastDisplay = displaySection;
+let checkForSeeLess ;
 
 function disappearWithSmoke(element) {
   return new Promise((resolve) => {
@@ -43,8 +42,12 @@ function displayAppear(displayed){
   stuff.resetClass(displayed);
   displayed.classList.add("slide-in-bounce");
 }
-
+let moreButton ;
 function fiveMore(){
+  
+  if(moreButton){
+    moreButton.remove();
+  }
   for (let i = j ; i < j+5 ; i = i + 1){
     const divBox = document.createElement(`div`);
     const photoUrl = document.createElement(`img`);
@@ -70,11 +73,13 @@ function fiveMore(){
     divBoxMini.appendChild(description);
     divBoxMini.appendChild(button);
   }
-  console.log(seeMoreSection);
+  moreButton = document.createElement(`button`);
+  moreButton.textContent = `Load More`;
+  moreButton.addEventListener("click", fiveMore);
+  displaySection.appendChild(moreButton);
 j = j + 5 //used to start display at stopped state
 };
 fiveMore();
-console.log(seeMoreSection);
 
 async function launchSearch(searchString){ // searchString probably the result of an input
   currentDisplay = searchBarSection;
@@ -172,10 +177,22 @@ async function seeMore(index){ // value is stored in correct button already.
   divBoxMini.appendChild(button);
 
   await displayDisappear(lastDisplay);
+  if(lastDisplay == searchBarSection){
+    checkForSeeLess = 0;
+  }
+  else{checkForSeeLess = 1;}
   displayAppear(currentDisplay);
+  lastDisplay = currentDisplay;
 };
 
 async function seeLess(){
   await displayDisappear(currentDisplay);
-  displayAppear(lastDisplay);
+  if(checkForSeeLess = 0){
+    displayAppear(searchBarSection);
+    lastDisplay=searchBarSection;
+  }
+  else{
+    displayAppear(displaySection);
+    lastDisplay=displaySection;
+  }
 };
