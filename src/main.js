@@ -16,7 +16,16 @@ const seeMoreSection = document.querySelector("#seeMoreSection");
 const loadMoreButton = document.getElementById("loadMore");
 loadMoreButton.addEventListener("click", fiveMore);
 
-
+function disappearWithSmoke(element) {
+  return new Promise((resolve) => {
+    element.classList.add('smoke-disappear');
+    
+    element.addEventListener('animationend', () => {
+      element.style.display = 'none';
+      resolve();
+    }, { once: true });
+  });
+}
 function fiveMore(){
   for (let i = j ; i < j+5 ; i = i + 1){
     const divBox = document.createElement(`div`);
@@ -45,15 +54,18 @@ function fiveMore(){
     divBoxMini.appendChild(button);
   }
 j = j + 5 //used to start display at stopped state
-}
+};
 fiveMore();
 
 function launchSearch(searchString){ // searchString probably the result of an input
 
 };
-function seeMore(index){ // value is stored in correct button already.
-  displaySection.classList.add("fold");
+async function seeMore(index){ // value is stored in correct button already.
   loadMoreButton.classList.add("hidden");
+  await disappearWithSmoke(displaySection);
+  displaySection.classList.remove("hidden");
+  displaySection.classList.add("slide-in-bounce");
+  displaySection.style.display = '';
 
 };
 function seeLess(){

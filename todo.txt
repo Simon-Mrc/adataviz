@@ -3,3 +3,5 @@
 
 
 many for loop mixed with while condition to prevent to many result to show.
+
+Investigate and practice more on async function and the concept of callback
