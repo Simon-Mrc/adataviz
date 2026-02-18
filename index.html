@@ -8,13 +8,19 @@
     <title>adataviz</title>
   </head>
   <body>
-    <input id = "input">
-    <button id = "searchButton"> try search</button>
+    <div class="search-container">
+      <input id="input" placeholder="Search something...">
+      <button id="searchButton">Search</button>
+    </div>
     <div id = "searchBarSection"> 
     </div> 
 
-    <div id = "loadingScreen" class="loadingScreen"> 
-    </div> 
+    <div id="loadingScreen" class="loadingScreen">
+      <div class="loading-content">
+        <div class="spinner"></div>
+        <p class="loading-text">Loading...</p>
+      </div>
+    </div>
 
     <div id = "displaySection" class="displaySection"> 
       <div id = "boxContent" class="boxContent">      

@@ -6,11 +6,13 @@ async function getTheApi() {
   const theJson = await json.json();
   return theJson;
 }
+const loadingScreen = document.querySelector("#loadingScreen");
+displayAppear(loadingScreen);
 const theJson = await getTheApi();
+await displayDisappear(loadingScreen);
 console.log(theJson.results.length);
 let j = 0; // last index of displayed infos
 const searchBarSection = document.querySelector("#searchBarSection");
-const loadingScreen = document.querySelector("#loadingScreen");
 const displaySection = document.querySelector("#displaySection");
 const seeMoreSection = document.querySelector("#seeMoreSection");
 console.log(seeMoreSection);
